@@ -1,10 +1,15 @@
 import './App.css'
+import Navbar from './components/Navbar';
+import Shop from './pages/Shop';
+import ProductPage from './pages/ProductPage';
 
 function App() {
 
   return (
     <div>
-      App
+      <Navbar />
+      <Shop />
+      <ProductPage />
     </div>
   )
 }

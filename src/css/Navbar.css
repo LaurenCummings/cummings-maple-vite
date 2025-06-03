@@ -26,3 +26,13 @@
 .hamburger-menu {
     display: none;
 }
+
+@media (max-width: 850px) {
+    .links {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: inline;
+    }
+}

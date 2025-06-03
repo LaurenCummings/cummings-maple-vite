@@ -12,7 +12,7 @@ function Navbar() {
                 <Link to="/">Products</Link>
                 <Link to="/About">About Us</Link>
             </div>
-            <button className="hamburgerMenu">
+            <button className="hamburger-menu">
                 <FaBars />
             </button>
         </div>

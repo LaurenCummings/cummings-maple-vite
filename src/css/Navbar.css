@@ -25,6 +25,15 @@
 
 .hamburger-menu {
     display: none;
+    background-color: transparent;
+    border: transparent;
+    font-size: 30px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.hamburger-menu:hover {
+    opacity: 0.6;
 }
 
 @media (max-width: 850px) {

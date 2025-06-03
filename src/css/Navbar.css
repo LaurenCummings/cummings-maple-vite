@@ -7,14 +7,18 @@
     align-items: center;
 }
 
+.logo {
+    margin-left: 50px;
+}
+
 .links {
-    margin-right: 50px;
+    margin-right: 100px;
     align-items: center;
 }
 
 .links a {
     text-decoration: none;
     color: white;
-    margin-left: 20px;
+    margin-left: 50px;
     font-size: 25px;
 }

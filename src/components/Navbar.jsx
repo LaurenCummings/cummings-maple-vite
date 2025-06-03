@@ -12,6 +12,9 @@ function Navbar() {
                 <Link to="/">Products</Link>
                 <Link to="/About">About Us</Link>
             </div>
+            <button className="hamburgerMenu">
+                <FaBars />
+            </button>
         </div>
     )
 }

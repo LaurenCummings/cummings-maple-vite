@@ -58,6 +58,7 @@ const products = [
         name: "maple syrup jug",
         category: "syrup",
         family: "jug",
+        grades: ["amber", "dark"],
         size: "half-pint",
         price: 10.00,
         description: "A jug of maple syrup" 
@@ -67,6 +68,7 @@ const products = [
         name: "maple syrup jug",
         category: "syrup",
         family: "jug",
+        grades: ["amber", "dark", "extra dark"],
         size: "pint",
         price: 15.00,
         description: "A jug of maple syrup" 
@@ -76,6 +78,7 @@ const products = [
         name: "maple syrup jug",
         category: "syrup",
         family: "jug",
+        grades: ["amber", "dark", "extra dark"],
         size: "quart",
         price: 20.00,
         description: "A jug of maple syrup" 
@@ -85,6 +88,7 @@ const products = [
         name: "maple syrup jug",
         category: "syrup",
         family: "jug",
+        grades: ["amber", "dark", "extra dark"],
         size: "half-gallon",
         price: 30.00,
         description: "A jug of maple syrup" 
@@ -94,6 +98,7 @@ const products = [
         name: "maple syrup jug",
         category: "syrup",
         family: "jug",
+        grades: ["amber", "dark", "extra dark"],
         size: "gallon",
         price: 40.00,
         description: "A jug of maple syrup" 
@@ -103,6 +108,7 @@ const products = [
         name: "maple syrup glass leaf",
         category: "syrup",
         family: "glass leaf",
+        grades: ["amber", "dark"],
         size: "5 oz",
         price: 10.00,
         description: "A glass leaf filled with maple syrup" 
@@ -112,6 +118,7 @@ const products = [
         name: "maple syrup glass leaf",
         category: "syrup",
         family: "glass leaf",
+        grades: ["amber", "dark"],
         size: "8 oz",
         price: 15.00,
         description: "A glass leaf filled with maple syrup" 
@@ -121,6 +128,7 @@ const products = [
         name: "maple syrup glass leaf",
         category: "syrup",
         family: "glass leaf",
+        grades: ["amber", "dark"],
         size: "10 oz",
         price: 20.00,
         description: "A glass leaf filled with maple syrup" 

@@ -9,19 +9,19 @@ const products = [
     },
     {
         id: 2,
-        name: "maple coated peanuts",
+        name: "maple cotton candy",
         category: "other",
-        sizes: ["4.8oz", "10oz"],
-        prices: [5.00, 10.00],
-        description: "Dry roasted peanuts and pure maple syrup" 
+        sizes: ["4.8oz"],
+        prices: [5.00],
+        description: "A container of maple cotton candy" 
     },
     {
         id: 3,
-        name: "maple coated peanuts",
+        name: "maple candy",
         category: "other",
-        sizes: ["4.8oz", "10oz"],
-        prices: [5.00, 10.00],
-        description: "Dry roasted peanuts and pure maple syrup" 
+        sizes: ["single", "4-pack", "6-pack"],
+        prices: [5.00, 10.00, 15.00],
+        description: "Pure maple syrup in candy form" 
     },
     {
         id: 4,
@@ -63,5 +63,14 @@ const products = [
         grades: ["amber", "dark", "extra dark"],
         prices: [5.00, 10.00, 15.00, 20.00, 25.00],
         description: "A jug of maple syrup" 
+    },
+    {
+        id: 9,
+        name: "maple syrup glass leaf",
+        category: "syrup",
+        sizes: ["2oz", "4oz"],
+        grades: ["amber"],
+        prices: [5.00, 10.00],
+        description: "A glass leaf of maple syrup" 
     },
 ]

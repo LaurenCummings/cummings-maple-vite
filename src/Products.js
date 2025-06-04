@@ -53,4 +53,31 @@ const products = [
         price: 10.00,
         description: "A 4-pack of maple candies in an assortment of shapes" 
     },   
+    {
+        id: 7,
+        name: "maple syrup jug",
+        category: "syrup",
+        family: "maple syrup jug",
+        size: "half-pint",
+        price: 10.00,
+        description: "A jug of maple syrup" 
+    },   
+    {
+        id: 8,
+        name: "maple candy pack",
+        category: "other",
+        family: "maple candy",
+        size: "4.8oz",
+        price: 10.00,
+        description: "A 4-pack of maple candies in an assortment of shapes" 
+    },   
+    {
+        id: 9,
+        name: "maple candy pack",
+        category: "other",
+        family: "maple candy",
+        size: "4.8oz",
+        price: 10.00,
+        description: "A 4-pack of maple candies in an assortment of shapes" 
+    },   
 ]

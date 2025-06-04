@@ -57,7 +57,7 @@ const products = [
         id: 7,
         name: "maple syrup jug",
         category: "syrup",
-        family: "maple syrup jug",
+        family: "jug",
         size: "half-pint",
         price: 10.00,
         description: "A jug of maple syrup" 
@@ -66,7 +66,7 @@ const products = [
         id: 8,
         name: "maple syrup jug",
         category: "syrup",
-        family: "maple syrup jug",
+        family: "jug",
         size: "pint",
         price: 15.00,
         description: "A jug of maple syrup" 
@@ -75,7 +75,7 @@ const products = [
         id: 9,
         name: "maple syrup jug",
         category: "syrup",
-        family: "maple syrup jug",
+        family: "jug",
         size: "quart",
         price: 20.00,
         description: "A jug of maple syrup" 
@@ -84,7 +84,7 @@ const products = [
         id: 10,
         name: "maple syrup jug",
         category: "syrup",
-        family: "maple syrup jug",
+        family: "jug",
         size: "half-gallon",
         price: 30.00,
         description: "A jug of maple syrup" 
@@ -93,7 +93,16 @@ const products = [
         id: 11,
         name: "maple syrup jug",
         category: "syrup",
-        family: "maple syrup jug",
+        family: "jug",
+        size: "gallon",
+        price: 40.00,
+        description: "A jug of maple syrup" 
+    },  
+    {
+        id: 12,
+        name: "maple syrup glass leaf",
+        category: "syrup",
+        family: "maple syrup glass leaf",
         size: "gallon",
         price: 40.00,
         description: "A jug of maple syrup" 

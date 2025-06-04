@@ -107,4 +107,22 @@ const products = [
         price: 10.00,
         description: "A glass leaf filled with maple syrup" 
     },  
+    {
+        id: 13,
+        name: "maple syrup glass leaf",
+        category: "syrup",
+        family: "glass leaf",
+        size: "8 oz",
+        price: 15.00,
+        description: "A glass leaf filled with maple syrup" 
+    },  
+    {
+        id: 14,
+        name: "maple syrup glass leaf",
+        category: "syrup",
+        family: "glass leaf",
+        size: "10 oz",
+        price: 20.00,
+        description: "A glass leaf filled with maple syrup" 
+    },  
 ]

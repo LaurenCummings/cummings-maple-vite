@@ -102,9 +102,9 @@ const products = [
         id: 12,
         name: "maple syrup glass leaf",
         category: "syrup",
-        family: "maple syrup glass leaf",
-        size: "gallon",
-        price: 40.00,
-        description: "A jug of maple syrup" 
+        family: "glass leaf",
+        size: "5 oz",
+        price: 10.00,
+        description: "A glass leaf filled with maple syrup" 
     },  
 ]

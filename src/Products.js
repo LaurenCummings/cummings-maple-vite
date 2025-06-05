@@ -7,7 +7,7 @@ const products = [
         size: "4.8oz",
         price: 5.00,
         description: "Dry roasted peanuts and pure maple syrup",
-        image: ""
+        image: "./images/1.jpg"
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ const products = [
         size: "8oz",
         price: 10.00,
         description: "Dry roasted peanuts and pure maple syrup",
-        image: ""
+        image: "./images/1.jpg"
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ const products = [
         size: "2oz",
         price: 5.00,
         description: "A single piece of maple candy in the shape of a maple leaf",
-        image: ""
+        image: "./images/1.jpg"
     },
     {
         id: 4,
@@ -37,7 +37,7 @@ const products = [
         size: "4.8oz",
         price: 10.00,
         description: "A 4-pack of maple candies shaped like maple leaves",
-        image: ""
+        image: "./images/1.jpg"
     },
     {
         id: 5,
@@ -47,7 +47,7 @@ const products = [
         size: "8.8oz",
         price: 15.00,
         description: "An 8-pack of maple candies shaped like maple leaves",
-        image: ""
+        image: "./images/1.jpg"
     },   
     {
         id: 6,

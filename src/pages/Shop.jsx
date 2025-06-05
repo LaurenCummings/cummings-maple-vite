@@ -11,6 +11,7 @@ function Shop() {
                         <div key={item.id} className="product">
                             <img src={item.image} alt={item.name} />
                             <h2>{item.name}</h2>
+                            <p>{item.size}</p>
                             <p>${item.price}</p>
                         </div>
                     )

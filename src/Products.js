@@ -148,3 +148,5 @@ const products = [
         image: "./images/1.jpg"
     },  
 ]
+
+export default products;

@@ -3,7 +3,11 @@ import products from '../Products';
 function Shop() {
     return (
         <div>
-            Shop
+            {products.map((item) => {
+                return (
+                    <h2>{item.name}</h2>
+                )
+            })}
         </div>
     )
 }

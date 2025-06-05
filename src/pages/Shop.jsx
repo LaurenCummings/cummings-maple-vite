@@ -1,15 +1,23 @@
 import '../css/Shop.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import products from '../Products';
 
 function Shop() {
     const [selectedProducts, setSelectedProducts] = useState("all");
+    const [filteredData, setFilteredData] = useState(products);
 
     const handleChange = (event) => {
         setSelectedProducts(event.target.value);
     }
-    
-    const filteredData = products.filter((item) => item.category === selectedProducts || item.family === selectedProducts);
+
+    useEffect(() => {
+        if (selectedProducts === "all") {
+            setFilteredData(products);
+        } else {
+            const filteredProducts = products.filter((item) => item.category === selectedProducts || item.family === selectedProducts);
+            setFilteredData(filteredProducts)
+        }
+    }, [selectedProducts])
 
     return (
         <div className="shop">

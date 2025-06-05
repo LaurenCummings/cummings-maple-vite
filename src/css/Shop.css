@@ -11,3 +11,8 @@
     width: 200px;
     border-radius: 5px;
 }
+
+.product h2 {
+    text-transform: capitalize;
+    font-size: 22px;
+}

@@ -5,7 +5,9 @@ function Shop() {
         <div>
             {products.map((item) => {
                 return (
-                    <h2>{item.name}</h2>
+                    <div key={item.id}>
+                        <h2>{item.name}</h2>
+                    </div>
                 )
             })}
         </div>

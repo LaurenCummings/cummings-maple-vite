@@ -7,6 +7,10 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.product {
+    margin-bottom: 20px;
+}
+
 .product img {
     width: 200px;
     border-radius: 5px;
@@ -15,4 +19,10 @@
 .product h2 {
     text-transform: capitalize;
     font-size: 22px;
+    margin-bottom: 3px;
+}
+
+.product p {
+    margin-top: 3px;
+    margin-bottom: 3px;
 }

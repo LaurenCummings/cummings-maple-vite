@@ -56,7 +56,8 @@ const products = [
         family: "maple candy",
         size: "4.8oz",
         price: 10.00,
-        description: "A 4-pack of maple candies in an assortment of shapes" 
+        description: "A 4-pack of maple candies in an assortment of shapes",
+        image: "./images/1.jpg"
     },   
     {
         id: 7,
@@ -66,7 +67,8 @@ const products = [
         grades: ["amber", "dark"],
         size: "half-pint",
         price: 10.00,
-        description: "A jug of maple syrup" 
+        description: "A jug of maple syrup",
+        image: "./images/1.jpg"
     },   
     {
         id: 8,
@@ -76,7 +78,8 @@ const products = [
         grades: ["amber", "dark", "extra dark"],
         size: "pint",
         price: 15.00,
-        description: "A jug of maple syrup" 
+        description: "A jug of maple syrup",
+        image: "./images/1.jpg"
     },  
     {
         id: 9,
@@ -86,7 +89,8 @@ const products = [
         grades: ["amber", "dark", "extra dark"],
         size: "quart",
         price: 20.00,
-        description: "A jug of maple syrup" 
+        description: "A jug of maple syrup",
+        image: "./images/1.jpg" 
     },  
     {
         id: 10,
@@ -96,7 +100,8 @@ const products = [
         grades: ["amber", "dark", "extra dark"],
         size: "half-gallon",
         price: 30.00,
-        description: "A jug of maple syrup" 
+        description: "A jug of maple syrup",
+        image: "./images/1.jpg" 
     },  
     {
         id: 11,
@@ -106,7 +111,8 @@ const products = [
         grades: ["amber", "dark", "extra dark"],
         size: "gallon",
         price: 40.00,
-        description: "A jug of maple syrup" 
+        description: "A jug of maple syrup",
+        image: "./images/1.jpg" 
     },  
     {
         id: 12,
@@ -116,7 +122,8 @@ const products = [
         grades: ["amber", "dark"],
         size: "5 oz",
         price: 10.00,
-        description: "A glass leaf filled with maple syrup" 
+        description: "A glass leaf filled with maple syrup",
+        image: "./images/1.jpg"
     },  
     {
         id: 13,
@@ -126,7 +133,8 @@ const products = [
         grades: ["amber", "dark"],
         size: "8 oz",
         price: 15.00,
-        description: "A glass leaf filled with maple syrup" 
+        description: "A glass leaf filled with maple syrup",
+        image: "./images/1.jpg" 
     },  
     {
         id: 14,
@@ -136,6 +144,7 @@ const products = [
         grades: ["amber", "dark"],
         size: "10 oz",
         price: 20.00,
-        description: "A glass leaf filled with maple syrup" 
+        description: "A glass leaf filled with maple syrup",
+        image: "./images/1.jpg"
     },  
 ]

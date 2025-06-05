@@ -1,4 +1,4 @@
-import '../Products';
+import products from '../Products';
 
 function Shop() {
     return (

@@ -1,3 +1,4 @@
+import '../css/Shop.css';
 import products from '../Products';
 
 function Shop() {

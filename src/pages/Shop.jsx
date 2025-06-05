@@ -1,3 +1,5 @@
+import '../Products';
+
 function Shop() {
     return (
         <div>

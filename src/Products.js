@@ -6,7 +6,8 @@ const products = [
         family: "maple coated peanuts",
         size: "4.8oz",
         price: 5.00,
-        description: "Dry roasted peanuts and pure maple syrup" 
+        description: "Dry roasted peanuts and pure maple syrup",
+        image: ""
     },
     {
         id: 2,
@@ -15,7 +16,8 @@ const products = [
         family: "maple coated peanuts",
         size: "8oz",
         price: 10.00,
-        description: "Dry roasted peanuts and pure maple syrup" 
+        description: "Dry roasted peanuts and pure maple syrup",
+        image: ""
     },
     {
         id: 3,
@@ -24,7 +26,8 @@ const products = [
         family: "maple candy",
         size: "2oz",
         price: 5.00,
-        description: "A single piece of maple candy in the shape of a maple leaf" 
+        description: "A single piece of maple candy in the shape of a maple leaf",
+        image: ""
     },
     {
         id: 4,
@@ -33,7 +36,8 @@ const products = [
         family: "maple candy",
         size: "4.8oz",
         price: 10.00,
-        description: "A 4-pack of maple candies shaped like maple leaves" 
+        description: "A 4-pack of maple candies shaped like maple leaves",
+        image: ""
     },
     {
         id: 5,
@@ -42,7 +46,8 @@ const products = [
         family: "maple candy",
         size: "8.8oz",
         price: 15.00,
-        description: "An 8-pack of maple candies shaped like maple leaves" 
+        description: "An 8-pack of maple candies shaped like maple leaves",
+        image: ""
     },   
     {
         id: 6,

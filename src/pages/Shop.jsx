@@ -6,6 +6,7 @@ function Shop() {
             {products.map((item) => {
                 return (
                     <div key={item.id} className="product">
+                        <img src={item.image} alt={item.name} />
                         <h2>{item.name}</h2>
                     </div>
                 )

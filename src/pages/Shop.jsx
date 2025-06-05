@@ -1,11 +1,19 @@
 import '../css/Shop.css';
+import { useState } from 'react';
 import products from '../Products';
 
 function Shop() {
+    const [selectedProducts, setSelectedProducts] = useState("all");
+
+    const handleChange = (event) => {
+        setSelectedProducts(event.target.value);
+    }
+    console.log(selectedProducts);
+
     return (
         <div className="shop">
             <h1>Our Products</h1>
-            <select name="filter">
+            <select name="filter" onChange={handleChange}>
                 <option value="all">All Products</option>
                 <option value="peanuts">Peanuts</option>
                 <option value="candy">Candy</option>

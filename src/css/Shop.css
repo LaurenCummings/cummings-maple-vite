@@ -26,4 +26,5 @@
     margin-top: 3px;
     margin-bottom: 3px;
     font-size: 18px;
+    text-transform: capitalize;
 }

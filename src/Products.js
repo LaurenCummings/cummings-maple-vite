@@ -4,7 +4,7 @@ const products = [
         name: "maple coated peanuts",
         category: "other",
         family: "maple coated peanuts",
-        size: "4.8oz",
+        size: "4.8 oz",
         price: 5.00,
         description: "Dry roasted peanuts and pure maple syrup",
         image: "./images/1.jpg"
@@ -14,7 +14,7 @@ const products = [
         name: "maple coated peanuts",
         category: "other",
         family: "maple coated peanuts",
-        size: "8oz",
+        size: "8 oz",
         price: 10.00,
         description: "Dry roasted peanuts and pure maple syrup",
         image: "./images/1.jpg"

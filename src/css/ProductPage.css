@@ -11,3 +11,7 @@
     width: 250px;
     border-radius: 5px;
 }
+
+.product-page p {
+    font-size: 20px;
+}

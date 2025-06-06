@@ -1,0 +1,12 @@
+.product-page {
+    text-align: center;
+}
+
+.product-page h1 {
+    text-transform: capitalize;
+}
+
+.product-page img {
+    width: 250px;
+    border-radius: 5px;
+}

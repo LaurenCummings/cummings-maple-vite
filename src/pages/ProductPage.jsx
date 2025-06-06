@@ -8,7 +8,7 @@ function ProductPage() {
     console.log(product);
 
     return (
-        <div>
+        <div className="product-page">
             <h1>{product.name}</h1>
             <img src={product.image} alt={product.name} />
         </div>

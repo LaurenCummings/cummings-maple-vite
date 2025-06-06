@@ -4,6 +4,7 @@
 
 .product-page h1 {
     text-transform: capitalize;
+    margin-top: 50px;
 }
 
 .product-page img {

@@ -15,7 +15,7 @@ function ProductPage() {
             <p>${product.price.toFixed(2)}</p>
             <p>{product.description}</p>
             { product.grades && 
-                <p>{product.grades.join(" ")}</p>
+                <p>Available in {product.grades.join(", ")}</p>
             }
         </div>
     )

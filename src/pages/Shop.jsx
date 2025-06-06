@@ -1,6 +1,7 @@
 import '../css/Shop.css';
 import { useState, useEffect } from 'react';
 import products from '../Products';
+import { Link } from 'react-router-dom';
 
 function Shop() {
     const [selectedProducts, setSelectedProducts] = useState("all");

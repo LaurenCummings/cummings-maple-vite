@@ -65,7 +65,7 @@ const products = [
         category: "syrup",
         family: "jug",
         grades: ["amber", "dark"],
-        size: "half-pint",
+        size: "Half-Pint",
         price: 10.00,
         description: "A jug of maple syrup",
         image: "./images/1.jpg"
@@ -76,7 +76,7 @@ const products = [
         category: "syrup",
         family: "jug",
         grades: ["amber", "dark", "extra dark"],
-        size: "pint",
+        size: "Pint",
         price: 15.00,
         description: "A jug of maple syrup",
         image: "./images/1.jpg"
@@ -87,7 +87,7 @@ const products = [
         category: "syrup",
         family: "jug",
         grades: ["amber", "dark", "extra dark"],
-        size: "quart",
+        size: "Quart",
         price: 20.00,
         description: "A jug of maple syrup",
         image: "./images/1.jpg" 
@@ -98,7 +98,7 @@ const products = [
         category: "syrup",
         family: "jug",
         grades: ["amber", "dark", "extra dark"],
-        size: "half-gallon",
+        size: "Half-Gallon",
         price: 30.00,
         description: "A jug of maple syrup",
         image: "./images/1.jpg" 
@@ -109,7 +109,7 @@ const products = [
         category: "syrup",
         family: "jug",
         grades: ["amber", "dark", "extra dark"],
-        size: "gallon",
+        size: "Gallon",
         price: 40.00,
         description: "A jug of maple syrup",
         image: "./images/1.jpg" 

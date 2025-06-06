@@ -24,7 +24,7 @@ const products = [
         name: "single maple candy",
         category: "other",
         family: "maple candy",
-        size: "2oz",
+        size: "2 oz",
         price: 5.00,
         description: "A single piece of maple candy in the shape of a maple leaf",
         image: "./images/1.jpg"
@@ -34,7 +34,7 @@ const products = [
         name: "maple candy pack",
         category: "other",
         family: "maple candy",
-        size: "4.8oz",
+        size: "4.8 oz",
         price: 10.00,
         description: "A 4-pack of maple candies shaped like maple leaves",
         image: "./images/1.jpg"
@@ -44,7 +44,7 @@ const products = [
         name: "maple candy pack",
         category: "other",
         family: "maple candy",
-        size: "8.8oz",
+        size: "8.8 oz",
         price: 15.00,
         description: "An 8-pack of maple candies shaped like maple leaves",
         image: "./images/1.jpg"
@@ -54,7 +54,7 @@ const products = [
         name: "maple candy pack",
         category: "other",
         family: "maple candy",
-        size: "4.8oz",
+        size: "4.8 oz",
         price: 10.00,
         description: "A 4-pack of maple candies in an assortment of shapes",
         image: "./images/1.jpg"

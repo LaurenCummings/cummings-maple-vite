@@ -1,3 +1,4 @@
+import '../css/ProductPage.css';
 import { useLocation } from 'react-router-dom';
 
 function ProductPage() {

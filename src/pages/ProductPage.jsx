@@ -13,6 +13,7 @@ function ProductPage() {
             <img src={product.image} alt={product.name} />
             <p>{product.size}</p>
             <p>${product.price.toFixed(2)}</p>
+            <p>{product.description}</p>
         </div>
     )
 }

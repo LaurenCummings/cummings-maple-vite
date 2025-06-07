@@ -6,8 +6,6 @@ function ProductPage() {
     const location = useLocation();
     const product = location.state;
 
-    console.log(product);
-
     return (
         <div className="product-page">
             <h1>{product.name}</h1>
@@ -17,9 +15,13 @@ function ProductPage() {
             <p>${product.price.toFixed(2)}</p>
             <p>{product.description}</p>
             { product.grades && 
-                <p>Available in {product.grades.join(", ")}</p>
-                
+                <p>Available in </p>
             }
+            {product.grades && product.grades.map((grade) =>
+                {
+                    <GradeLabel />
+                }      
+            )}
         </div>
     )
 }

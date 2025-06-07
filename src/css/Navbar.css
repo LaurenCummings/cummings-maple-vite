@@ -41,6 +41,22 @@
         display: none;
     }
 
+    .links.menu-open {
+        display: block;
+        width: 200px;
+        position: absolute;
+        right: -90px;
+        top: 80px;
+        background-color: rgb(255, 155, 74);
+        padding-top: 10px;
+        z-index: 100;
+    }
+
+    .links.menu-open a {
+        display: block;
+        margin-bottom: 10px;
+    }
+
     .hamburger-menu {
         display: inline;
     }

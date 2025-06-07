@@ -1,3 +1,8 @@
-.grade-label {
+.leaf-icon {
     color: rgb(168, 152, 3);
+}
+
+.grade-label p {
+    color: black;
+    z-index: 100;
 }

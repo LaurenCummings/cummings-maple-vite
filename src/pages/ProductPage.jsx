@@ -9,7 +9,6 @@ function ProductPage() {
     return (
         <div className="product-page">
             <h1>{product.name}</h1>
-            <GradeLabel grade={product.name} />
             <img src={product.image} alt={product.name} />
             <p>{product.size}</p>
             <p>${product.price.toFixed(2)}</p>

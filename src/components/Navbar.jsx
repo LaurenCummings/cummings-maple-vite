@@ -10,14 +10,18 @@ function Navbar() {
         setIsOpen(!isOpen);
     }
 
+    const closeMenu = () => {
+        isOpen ? toggleMenu() : null;
+    }
+
     return (
         <div className="navbar">
             <div className="logo">
                 <h1>Cummings Maple</h1>
             </div>
             <div className={`${isOpen ? "links menu-open" : "links"}`}>
-                <Link to="/">Products</Link>
-                <Link to="/About">About Us</Link>
+                <Link to="/" onClick={closeMenu}>Products</Link>
+                <Link to="/About" onClick={closeMenu}>About Us</Link>
             </div>
             <button className="hamburger-menu" onClick={toggleMenu}>
                 <FaBars />

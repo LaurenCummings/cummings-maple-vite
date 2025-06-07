@@ -6,6 +6,10 @@ import { FaBars } from 'react-icons/fa6';
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    }
+
     return (
         <div className="navbar">
             <div className="logo">
@@ -15,7 +19,7 @@ function Navbar() {
                 <Link to="/">Products</Link>
                 <Link to="/About">About Us</Link>
             </div>
-            <button className="hamburger-menu">
+            <button className="hamburger-menu" onClick={toggleMenu}>
                 <FaBars />
             </button>
         </div>

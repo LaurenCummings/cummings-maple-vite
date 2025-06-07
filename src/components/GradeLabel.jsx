@@ -3,7 +3,7 @@ import { FaCanadianMapleLeaf } from 'react-icons/fa';
 
 function GradeLabel({ grade }) {
     return (
-        <FaCanadianMapleLeaf>
+        <FaCanadianMapleLeaf size="90px" className="grade-label">
             {grade}
         </FaCanadianMapleLeaf>
     )

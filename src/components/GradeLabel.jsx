@@ -1,3 +1,5 @@
+import { FaCanadianMapleLeaf } from 'react-icons/fa';
+
 function GradeLabel() {
     return (
         <div>

@@ -33,3 +33,9 @@
     margin-bottom: 3px;
     font-size: 18px;
 }
+
+@media (max-width: 1200px) {
+    .products {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

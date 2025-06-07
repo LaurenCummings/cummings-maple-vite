@@ -57,6 +57,10 @@
         margin-bottom: 10px;
     }
 
+    .links.menu-open a:hover {
+        opacity: 0.3;
+    }
+
     .hamburger-menu {
         display: inline;
     }

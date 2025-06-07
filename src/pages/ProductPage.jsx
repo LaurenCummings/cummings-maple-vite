@@ -16,11 +16,13 @@ function ProductPage() {
             { product.grades && 
                 <p>Available in </p>
             }
-            { product.grades && product.grades.map((grade, index) => {
-                return (
-                    <GradeLabel key={index} grade={grade} />                  
-                )    
-            })}
+            <div className="product-grades">
+                { product.grades && product.grades.map((grade, index) => {
+                    return (
+                        <GradeLabel key={index} grade={grade} />                  
+                    )    
+                })}
+            </div>
         </div>
     )
 }

@@ -15,7 +15,7 @@ function Navbar() {
             <div className="logo">
                 <h1>Cummings Maple</h1>
             </div>
-            <div className="links">
+            <div className={`${isOpen ? "links menu-open" : "links"}`}>
                 <Link to="/">Products</Link>
                 <Link to="/About">About Us</Link>
             </div>

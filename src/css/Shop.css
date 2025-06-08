@@ -1,5 +1,6 @@
 .shop {
     text-align: center;
+    min-height: calc(100vh - 120px - 80px);
 }
 
 .shop select {

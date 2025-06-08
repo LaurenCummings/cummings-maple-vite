@@ -147,6 +147,26 @@ const products = [
         description: "A glass leaf filled with maple syrup",
         image: "./images/1.jpg"
     },  
+    {
+        id: 15,
+        name: "maple cream",
+        category: "other",
+        family: "cream",
+        size: "8 oz",
+        price: 15.00,
+        description: "A maple spread in a glass jar",
+        image: "./images/1.jpg"
+    },  
+    {
+        id: 16,
+        name: "maple cream",
+        category: "other",
+        family: "cream",
+        size: "16 oz",
+        price: 30.00,
+        description: "A maple spread in a glass jar",
+        image: "./images/1.jpg"
+    },  
 ]
 
 export default products;

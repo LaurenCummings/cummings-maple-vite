@@ -25,9 +25,10 @@ function Shop() {
             <h1>Our Products</h1>
             <select name="filter" onChange={handleChange}>
                 <option value="all">All Products</option>
-                <option value="maple coated peanuts">Peanuts</option>
-                <option value="maple candy">Candy</option>
                 <option value="syrup">Syrup</option>
+                <option value="maple coated peanuts">Peanuts</option>
+                <option value="maple candy">Maple Candy</option>
+                <option value="cream">Maple Cream</option>
                 <option value="cotton-candy">Cotton Candy</option>
             </select>
             <div className="products">

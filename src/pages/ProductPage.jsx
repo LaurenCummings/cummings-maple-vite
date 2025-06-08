@@ -14,9 +14,9 @@ function ProductPage() {
                     <img src={product.image} alt={product.name} />   
                 </div>
                 <div className="product-info">
-                    <p>{product.size}</p>
-                    <p>${product.price.toFixed(2)}</p>
                     <p>{product.description}</p>
+                    <p>Size: {product.size}</p>
+                    <p>Price: ${product.price.toFixed(2)}</p>
                     { product.grades && 
                         <p>Available in </p>
                     }

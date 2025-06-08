@@ -27,3 +27,9 @@
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 700px) {
+    .product-container {
+        flex-direction: column;
+    }
+}

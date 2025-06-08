@@ -1,3 +1,7 @@
+.grade-label {
+    position: relative;
+}
+
 .leaf-icon-Amber {
     color: rgb(168, 152, 3);
 }
@@ -11,6 +15,23 @@
 }
 
 .grade-label p {
-    color: black;
+    color: white;
+    font-size: 16px;
+    position: absolute;
     z-index: 100;
+}
+
+.label-Amber {
+    top: 18px;
+    left: 21px;
+}
+
+.label-Dark {
+    top: 18px;
+    left: 29px;
+}
+
+.label-ExtraDark {
+    top: 14px;
+    left: 10px;
 }

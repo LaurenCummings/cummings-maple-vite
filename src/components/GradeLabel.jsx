@@ -6,7 +6,7 @@ function GradeLabel({ grade }) {
     return (
         <div className="grade-label">
             <FaCanadianMapleLeaf size="90px" className={`leaf-icon-${grade.replaceAll(" ", "")}`} />
-            <p>{grade}</p>            
+            <p className={`label-${grade.replaceAll(" ", "")}`}>{grade}</p>            
         </div>
     )
 }

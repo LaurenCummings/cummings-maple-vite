@@ -1,6 +1,7 @@
 .product-page {
     text-align: center;
     min-height: calc(100vh - 120px - 80px);
+    padding-bottom: 50px;
 }
 
 .product-page h1 {
@@ -30,6 +31,10 @@
 }
 
 @media (max-width: 700px) {
+    .product-page h1 {
+        padding-top: 20px;
+    }
+
     .product-container {
         flex-direction: column;
     }

@@ -1,5 +1,6 @@
 .product-page {
     text-align: center;
+    min-height: calc(100vh - 120px - 80px);
 }
 
 .product-page h1 {

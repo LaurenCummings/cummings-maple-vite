@@ -7,6 +7,11 @@
     margin-top: 50px;
 }
 
+.product-container {
+    display: flex;
+    justify-content: center;
+}
+
 .product-page img {
     width: 250px;
     border-radius: 5px;

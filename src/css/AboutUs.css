@@ -24,3 +24,9 @@
     /* margin: 0px auto;
     padding: 20px 0px; */
 }
+
+@media (max-width: 1200px) {
+    .about-us-info {
+        flex-direction: column;
+    }
+}

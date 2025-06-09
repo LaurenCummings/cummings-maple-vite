@@ -21,6 +21,9 @@
     color: white;
     margin-left: 50px;
     font-size: 25px;
+    border-radius: 5px;
+    padding: 10px 13px;
+    background-color: #F0753B;
 }
 
 .hamburger-menu {

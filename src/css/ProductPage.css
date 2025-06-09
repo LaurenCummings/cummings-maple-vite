@@ -39,4 +39,8 @@
     .product-container {
         flex-direction: column;
     }
+
+    .product-info {
+        margin: 0px auto;
+    }
 }

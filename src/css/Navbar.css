@@ -18,12 +18,18 @@
 
 .links a {
     text-decoration: none;
-    color: white;
+    color: rgb(241, 245, 248);
     margin-left: 50px;
     font-size: 25px;
     border-radius: 5px;
     padding: 10px 13px;
     background-color: rgb(240, 117, 59);
+    transition: all 0.3s linear;
+}
+
+.links a:hover {
+    background-color: rgb(241, 245, 248);
+    color: rgb(240, 117, 59);
 }
 
 .hamburger-menu {

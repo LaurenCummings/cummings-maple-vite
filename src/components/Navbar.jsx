@@ -26,7 +26,9 @@ function Navbar() {
                 <Link to="/About" onClick={closeMenu}>About Us</Link>
             </div>
             <button className="hamburger-menu" onClick={toggleMenu}>
-                <FaBars />
+                {
+                    isOpen ? <FaTimes /> : <FaBars />
+                }
             </button>
         </div>
     )

@@ -68,7 +68,7 @@
     .links.menu-open {
         display: block;
         width: 100%;
-        height: 100%;
+        height: calc(100% - 100px);
         position: absolute;
         right: -100px;
         top: 90px;

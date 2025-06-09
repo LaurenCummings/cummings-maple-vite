@@ -1,0 +1,18 @@
+.about-us {
+    text-align: center;
+    min-height: calc(100vh - 120px - 80px);
+}
+
+.about-us .title {
+    padding-top: 50px;
+}
+
+.about-us img {
+    width: 500px;
+}
+
+.about-us .description {
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 20px 0px;
+}

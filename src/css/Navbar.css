@@ -76,6 +76,7 @@
         background-color: rgb(245, 161, 119);
         padding-top: 10px;
         z-index: 100;
+        animation: fadeIn 0.3s ease-in-out;
     }
 
     .links.menu-open a {
@@ -101,5 +102,14 @@
 
     .logo img {
         margin-top: 25px;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
     }
 }

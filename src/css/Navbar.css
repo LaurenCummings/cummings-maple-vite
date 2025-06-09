@@ -1,6 +1,6 @@
 .navbar {
     width: 100%;
-    height: 80px;
+    height: 100px;
     background-color: rgb(245, 161, 119);
     display: flex;
     justify-content: space-between;
@@ -15,13 +15,16 @@
 .logo img {
     width: 70px;
     height: 70px;
-    border-radius: 50%;
-    margin-top: 8px;
+    border-radius: 40%;
+    margin-top: 7px;
     margin-right: 15px;
 }
 
 .logo h1 {
     color: rgb(74, 18, 6);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* max-width: 200px; */
+    text-align: center;
 }
 
 .links {
@@ -58,7 +61,7 @@
     opacity: 0.6;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
     .links {
         display: none;
     }
@@ -85,5 +88,15 @@
 
     .hamburger-menu {
         display: inline;
+    }
+}
+
+@media (max-width: 600px) {
+    .logo h1 {
+        max-width: 200px;
+    }
+
+    .logo img {
+        margin-top: 25px;
     }
 }

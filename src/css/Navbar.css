@@ -81,6 +81,8 @@
     .links.menu-open a {
         display: block;
         margin-bottom: 10px;
+        margin-left: 0px;
+        border-radius: 0px;
     }
 
     .links.menu-open a:hover {

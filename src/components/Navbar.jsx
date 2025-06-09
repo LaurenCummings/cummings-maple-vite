@@ -17,6 +17,7 @@ function Navbar() {
     return (
         <div className="navbar">
             <div className="logo">
+                <img src="./images/logo.png" alt="logo" />
                 <h1>Cummings Maple</h1>
             </div>
             <div className={`${isOpen ? "links menu-open" : "links"}`}>

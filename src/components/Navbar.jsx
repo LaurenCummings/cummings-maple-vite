@@ -2,6 +2,7 @@ import '../css/Navbar.css';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa6';
+import { FaTimes } from 'react-icons/fa';
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);

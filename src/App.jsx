@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename={'cummings-maple-vite'}>
         <Navbar />
         <Routes>
           <Route path="/About" element={<AboutUs />} />

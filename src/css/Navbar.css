@@ -104,6 +104,16 @@
     }
 }
 
+@media (max-width: 450px) {
+    .logo img {
+        margin-left: -15px;
+    }
+
+    .hamburger-menu {
+        margin-right: 3px;
+    }
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;

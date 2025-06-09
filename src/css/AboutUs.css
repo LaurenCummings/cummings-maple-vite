@@ -4,7 +4,7 @@
 }
 
 .about-us h1{
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 .about-us-info {
@@ -12,7 +12,7 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
-    padding-top: 50px;
+    padding: 50px 0px;
 }
 
 .about-us-info img {

@@ -68,10 +68,11 @@
 
     .links.menu-open {
         display: block;
-        width: 200px;
+        width: 100%;
+        height: 100%;
         position: absolute;
         right: -100px;
-        top: 80px;
+        top: 90px;
         background-color: rgb(245, 161, 119);
         padding-top: 10px;
         z-index: 100;

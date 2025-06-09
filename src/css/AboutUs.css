@@ -49,3 +49,22 @@
         width: 400px;
     }
 }
+
+@media (max-width: 475px) {
+    .about-us h1 {
+        padding-top: 5px;
+    }
+
+    .about-us-info {
+        padding-top: 5px;
+        gap: 10px;
+    }
+
+    .about-us-info img {
+        width: 320px;
+    }
+
+    .about-us-info .description {
+        max-width: 320px;
+    }
+}

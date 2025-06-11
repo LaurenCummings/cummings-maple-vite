@@ -1,10 +1,10 @@
 import '../css/Home.css';
-import '../assets/leaves.jpg';
+import leaves from '../assets/leaves.jpg';
 
 function Home() {
     return (
-        <div>
-            Home
+        <div className="home">
+            <img src={leaves} alt="leaves" />
         </div>
     )
 }

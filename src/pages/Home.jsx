@@ -4,7 +4,7 @@ import trees from '../assets/trees.jpg';
 function Home() {
     return (
         <div className="home">
-            <img src={leaves} alt="leaves" />
+            <img src={trees} alt="trees" />
         </div>
     )
 }

@@ -10,10 +10,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 200px;
+    gap: 150px;
 }
 
 .home-about-us-img {
     height: 300px;
     border-radius: 10px;
+}
+
+.home-about-us p {
+    font-size: 22px;
+    max-width: 250px;
+    text-align: center;
 }

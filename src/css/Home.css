@@ -4,6 +4,16 @@
     object-fit: cover;
 }
 
+.home-about-us {
+    height: 500px;
+    background-color: #BC240F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 600px;
+}
+
 .home-about-us-img {
     height: 300px;
+    border-radius: 10px;
 }

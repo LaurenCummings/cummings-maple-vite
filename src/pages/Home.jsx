@@ -1,5 +1,5 @@
 import '../css/Home.css';
-import leaves from '../assets/leaves.jpg';
+import trees from '../assets/trees.jpg';
 
 function Home() {
     return (

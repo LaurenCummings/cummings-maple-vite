@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa6';
 import { FaTimes } from 'react-icons/fa';
+import logo from '../assets/logo.png';
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +19,7 @@ function Navbar() {
     return (
         <div className="navbar">
             <div className="logo">
-                <img src="./images/logo.png" alt="logo" />
+                <img src={logo} alt="logo" />
                 <Link to="/">
                     <h1>Cummings Maple</h1>
                 </Link>

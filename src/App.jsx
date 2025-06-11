@@ -14,9 +14,9 @@ function App() {
       <BrowserRouter basename={'cummings-maple-vite'}>
         <Navbar />
         <Routes>
-          <Route path="/Home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/About" element={<AboutUs />} />
-          <Route path="/" element={<Shop />} />
+          <Route path="/Products" element={<Shop />} />
           <Route path="/ProductPage" element={<ProductPage />} />
         </Routes>
         <Footer />

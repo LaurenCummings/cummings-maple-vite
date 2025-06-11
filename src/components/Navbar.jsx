@@ -19,12 +19,12 @@ function Navbar() {
         <div className="navbar">
             <div className="logo">
                 <img src="./images/logo.png" alt="logo" />
-                <Link to="/Home">
+                <Link to="/">
                     <h1>Cummings Maple</h1>
                 </Link>
             </div>
             <div className={`${isOpen ? "links menu-open" : "links"}`}>
-                <Link to="/" onClick={closeMenu}>Products</Link>
+                <Link to="/Products" onClick={closeMenu}>Products</Link>
                 <Link to="/About" onClick={closeMenu}>About Us</Link>
             </div>
             <button className="hamburger-menu" onClick={toggleMenu}>

@@ -1,4 +1,5 @@
 import '../css/Home.css';
+import '../assets/leaves.jpg';
 
 function Home() {
     return (

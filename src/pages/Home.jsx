@@ -8,7 +8,7 @@ function Home() {
             <img className="banner" src={trees} alt="trees" />
             <div className="home-about-us">
                 <img className="home-about-us-img" src={bucket} alt="bucket" />
-                <h2>Read Our Story</h2>
+                <button>Read Our Story</button>
             </div>
             <div className="home-products">
 

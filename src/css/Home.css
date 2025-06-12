@@ -40,4 +40,10 @@
     color: rgb(241, 245, 248);
     border: none;
     cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.home-about-us-info button:hover {
+    background-color:rgb(241, 245, 248);
+    color: rgb(74, 18, 6);
 }

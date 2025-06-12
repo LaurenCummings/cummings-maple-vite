@@ -18,6 +18,10 @@
     border-radius: 10px;
 }
 
+.home-about-us-info {
+    display: flex;
+}
+
 .home-about-us p {
     font-size: 22px;
     max-width: 250px;

@@ -1,6 +1,7 @@
 import '../css/Home.css';
 import trees from '../assets/trees.jpg';
 import bucket from '../assets/bucket.jpg';
+import bottles from '../assets/bottles.jpg';
 import { Link } from 'react-router-dom';
 
 function Home() {
@@ -14,11 +15,10 @@ function Home() {
                     <Link to="/About">
                         <button>Read Our Story</button>  
                     </Link>
-                     
                 </div>
-                
             </div>
             <div className="home-products">
+                <img src={bottles} alt="bottles" />
 
             </div>
             <div className="home-contact-us">

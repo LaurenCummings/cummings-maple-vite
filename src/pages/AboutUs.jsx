@@ -1,11 +1,12 @@
 import '../css/AboutUs.css';
+import aboutUs from '../assets/aboutUs.jpg';
 
 function AboutUs() {
     return (
         <div className="about-us">
             <h1>About Us</h1>
             <div className="about-us-info">
-                <img src="./images/aboutUs.jpg" alt="barn" />
+                <img src={aboutUs} alt="barn" />
                 <div className="description">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 

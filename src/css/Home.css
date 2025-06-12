@@ -21,10 +21,11 @@
 .home-about-us-info {
     display: flex;
     gap: 100px;
+    align-items: center;
 }
 
 .home-about-us-info p {
-    font-size: 22px;
+    font-size: 30px;
     max-width: 250px;
     text-align: center;
     color: rgb(241, 245, 248);
@@ -32,6 +33,7 @@
 
 .home-about-us-info button {
     width: 200px;
+    height: 200px;
     font-size: 30px;
     border-radius: 10px;
     background-color: rgb(74, 18, 6);

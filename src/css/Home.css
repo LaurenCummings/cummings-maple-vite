@@ -66,4 +66,13 @@
     height: 150px;
     border-radius: 10px;
     font-size: 30px;
+    background-color: rgb(188, 36, 15);
+    color: rgb(241, 245, 248);
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.home-products button:hover {
+    background-color: rgb(241, 245, 248);
+    color: rgb(188, 36, 15);
 }

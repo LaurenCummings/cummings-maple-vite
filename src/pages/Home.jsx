@@ -19,7 +19,10 @@ function Home() {
             </div>
             <div className="home-products">
                 <img src={bottles} alt="bottles" />
-
+                <img src={bottles} alt="bottles" />
+                <Link to="/Products">
+                    <button>View Our Products</button>
+                </Link>
             </div>
             <div className="home-contact-us">
 

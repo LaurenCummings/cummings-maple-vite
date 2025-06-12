@@ -23,6 +23,7 @@ function Shop() {
     return (
         <div className="shop">
             <h1>Our Products</h1>
+            <p>Available for shipment. Please call for pricing.</p>
             <select name="filter" onChange={handleChange}>
                 <option value="all">All Products</option>
                 <option value="syrup">Syrup</option>

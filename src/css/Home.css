@@ -90,3 +90,9 @@
     height: 400px;
     border-radius: 10px;
 }
+
+.home-contact-us-info {
+    text-align: center;
+    font-size: 22px;
+    color: rgb(241, 245, 248);
+}

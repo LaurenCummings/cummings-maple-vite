@@ -28,11 +28,11 @@ function Home() {
             <div className="home-contact-us">
                 <img src={aboutUs} alt="barn" />
                 <div className="home-contact-us-info">
-                    <p>We are located at</p>
+                    <p>We are located at:</p>
                     <p>2814 Harris Rd</p>
                     <p>Palmyra, NY</p>
                     <p>Please call ahead if you would like to visit!</p>
-                    <p>(315) 576-0203</p>    
+                    <p>Phone: (315) 576-0203</p>    
                 </div>
 
             </div>

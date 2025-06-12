@@ -1,6 +1,7 @@
 import '../css/Home.css';
 import trees from '../assets/trees.jpg';
 import bucket from '../assets/bucket.jpg';
+import { Link } from 'react-router-dom';
 
 function Home() {
     return (
@@ -10,7 +11,10 @@ function Home() {
                 <img className="home-about-us-img" src={bucket} alt="bucket" />
                 <div className="home-about-us-info">
                     <p>We've been producing maple products in Palmyra, NY for over 30 years.</p>
-                    <button>Read Our Story</button>   
+                    <Link to="/About">
+                        <button>Read Our Story</button>  
+                    </Link>
+                     
                 </div>
                 
             </div>

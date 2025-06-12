@@ -86,7 +86,7 @@ const products = [
         name: "maple syrup jug",
         category: "syrup",
         family: "jug",
-        grades: ["Amber", "Dark", "Extra Dark"],
+        grades: ["Golden", "Amber", "Dark", "Extra Dark"],
         size: "Quart",
         price: 20.00,
         description: "A jug of maple syrup",

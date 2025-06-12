@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 350px;
+    gap: 200px;
 }
 
 .home-about-us-img {
@@ -20,13 +20,13 @@
 
 .home-about-us-info {
     display: flex;
-    gap: 100px;
+    gap: 150px;
     align-items: center;
 }
 
 .home-about-us-info p {
     font-size: 30px;
-    max-width: 250px;
+    max-width: 350px;
     text-align: center;
     color: rgb(241, 245, 248);
 }

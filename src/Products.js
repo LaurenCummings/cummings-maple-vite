@@ -193,30 +193,30 @@ const products = [
     }, 
     {
         id: 19,
-        name: "maple coated peanuts",
+        name: "small bag maple coated peanuts",
         category: "other",
         family: "maple coated peanuts",
-        size: "4.8 oz",
-        price: 5.00,
+        size: "2 oz",
+        price: 2.00,
         description: "Dry roasted peanuts and pure maple syrup",
         image: "./images/1.jpg"
     },
     {
         id: 20,
-        name: "maple coated peanuts",
+        name: "large bag maple coated peanuts",
         category: "other",
         family: "maple coated peanuts",
-        size: "8 oz",
-        price: 10.00,
+        size: "4.8 oz",
+        price: 4.00,
         description: "Dry roasted peanuts and pure maple syrup",
         image: "./images/1.jpg"
     },  
     {
         id: 21,
-        name: "maple coated peanuts",
+        name: "tub maple coated peanuts",
         category: "other",
         family: "maple coated peanuts",
-        size: "8 oz",
+        size: "1 lb",
         price: 10.00,
         description: "Dry roasted peanuts and pure maple syrup",
         image: "./images/1.jpg"

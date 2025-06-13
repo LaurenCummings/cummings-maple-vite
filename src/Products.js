@@ -213,6 +213,16 @@ const products = [
     },  
     {
         id: 21,
+        name: "maple coated peanuts",
+        category: "other",
+        family: "maple coated peanuts",
+        size: "8 oz",
+        price: 10.00,
+        description: "Dry roasted peanuts and pure maple syrup",
+        image: "./images/1.jpg"
+    }, 
+    {
+        id: 22,
         name: "maple cream",
         category: "other",
         family: "cream",
@@ -222,7 +232,7 @@ const products = [
         image: "./images/1.jpg"
     },  
     {
-        id: 22,
+        id: 23,
         name: "maple cream",
         category: "other",
         family: "cream",
@@ -232,7 +242,7 @@ const products = [
         image: "./images/1.jpg"
     },  
     {
-        id: 23,
+        id: 24,
         name: "maple cotton candy",
         category: "other",
         family: "cotton-candy",

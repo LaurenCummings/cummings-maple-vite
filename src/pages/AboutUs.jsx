@@ -18,7 +18,8 @@ function AboutUs() {
                         Maple Syrup, we make maple molded sugar, maple cream, 
                         granulated maple sugar, maple coated peanuts, and maple 
                         cotton candy.
-
+                    </p>
+                    <p>
                         We enjoy giving tours of our operation during the Maple 
                         Season.                   
                     </p>

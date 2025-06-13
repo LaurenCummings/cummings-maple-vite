@@ -283,21 +283,21 @@ const products = [
     },  
     {
         id: 28,
-        name: "maple cotton candy",
+        name: "maple cotton candy bag",
         category: "other",
         family: "cotton-candy",
-        size: "10 oz",
-        price: 10.00,
-        description: "A tub of maple cotton candy",
+        size: "?? oz",
+        price: 4.00,
+        description: "A bag of maple cotton candy",
         image: "./images/1.jpg"
     },  
     {
         id: 29,
-        name: "maple cotton candy",
+        name: "maple cotton candy tub",
         category: "other",
         family: "cotton-candy",
-        size: "10 oz",
-        price: 10.00,
+        size: "?? oz",
+        price: 2.00,
         description: "A tub of maple cotton candy",
         image: "./images/1.jpg"
     },  

@@ -125,7 +125,7 @@ const products = [
         name: "plastic dispenser bottle",
         category: "syrup",
         family: "plastic bottle",
-        grades: ["Golen", "Amber", "Dark", "Very Dark"],
+        grades: ["Golden", "Amber", "Dark", "Very Dark"],
         size: "13.2 oz",
         price: 9.00,
         description: "A plastic squeeze bottle filled with maple syrup",
@@ -133,6 +133,39 @@ const products = [
     }, 
     {
         id: 13,
+        name: "bourbon barrel aged syrup",
+        category: "syrup",
+        family: "plastic bottle",
+        grades: ["Golden", "Amber", "Dark", "Very Dark"],
+        size: "13.2 oz",
+        price: 9.00,
+        description: "A plastic squeeze bottle filled with maple syrup",
+        image: "./images/1.jpg"
+    }, 
+    {
+        id: 14,
+        name: "cinnamon infused syrup",
+        category: "syrup",
+        family: "plastic bottle",
+        grades: ["Golden", "Amber", "Dark", "Very Dark"],
+        size: "13.2 oz",
+        price: 9.00,
+        description: "A plastic squeeze bottle filled with maple syrup",
+        image: "./images/1.jpg"
+    }, 
+    {
+        id: 15,
+        name: "vanilla infused syrup",
+        category: "syrup",
+        family: "plastic bottle",
+        grades: ["Golden", "Amber", "Dark", "Very Dark"],
+        size: "13.2 oz",
+        price: 9.00,
+        description: "A plastic squeeze bottle filled with maple syrup",
+        image: "./images/1.jpg"
+    }, 
+    {
+        id: 16,
         name: "maple coated peanuts",
         category: "other",
         family: "maple coated peanuts",
@@ -142,7 +175,7 @@ const products = [
         image: "./images/1.jpg"
     },
     {
-        id: 14,
+        id: 17,
         name: "maple coated peanuts",
         category: "other",
         family: "maple coated peanuts",
@@ -152,7 +185,7 @@ const products = [
         image: "./images/1.jpg"
     },
     {
-        id: 15,
+        id: 18,
         name: "single maple candy",
         category: "other",
         family: "maple candy",
@@ -162,7 +195,7 @@ const products = [
         image: "./images/1.jpg"
     },
     {
-        id: 16,
+        id: 19,
         name: "maple candy pack",
         category: "other",
         family: "maple candy",
@@ -172,7 +205,7 @@ const products = [
         image: "./images/1.jpg"
     },
     {
-        id: 17,
+        id: 20,
         name: "maple candy pack",
         category: "other",
         family: "maple candy",
@@ -182,7 +215,7 @@ const products = [
         image: "./images/1.jpg"
     },   
     {
-        id: 18,
+        id: 21,
         name: "maple candy pack",
         category: "other",
         family: "maple candy",
@@ -192,7 +225,7 @@ const products = [
         image: "./images/1.jpg"
     },    
     {
-        id: 19,
+        id: 22,
         name: "maple cream",
         category: "other",
         family: "cream",
@@ -202,7 +235,7 @@ const products = [
         image: "./images/1.jpg"
     },  
     {
-        id: 20,
+        id: 23,
         name: "maple cream",
         category: "other",
         family: "cream",
@@ -212,7 +245,7 @@ const products = [
         image: "./images/1.jpg"
     },  
     {
-        id: 21,
+        id: 24,
         name: "maple cotton candy",
         category: "other",
         family: "cotton-candy",

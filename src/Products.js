@@ -243,6 +243,16 @@ const products = [
     },  
     {
         id: 24,
+        name: "maple cream",
+        category: "other",
+        family: "cream",
+        size: "16 oz",
+        price: 30.00,
+        description: "A maple spread in a glass jar",
+        image: "./images/1.jpg"
+    },  
+    {
+        id: 25,
         name: "maple cotton candy",
         category: "other",
         family: "cotton-candy",

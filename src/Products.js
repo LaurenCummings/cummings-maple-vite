@@ -253,6 +253,36 @@ const products = [
     },  
     {
         id: 25,
+        name: "large maple cream",
+        category: "other",
+        family: "cream",
+        size: "1 lb",
+        price: 14.00,
+        description: "A maple spread in a glass jar",
+        image: "./images/1.jpg"
+    },  
+    {
+        id: 26,
+        name: "large maple cream",
+        category: "other",
+        family: "cream",
+        size: "1 lb",
+        price: 14.00,
+        description: "A maple spread in a glass jar",
+        image: "./images/1.jpg"
+    },  
+    {
+        id: 27,
+        name: "large maple cream",
+        category: "other",
+        family: "cream",
+        size: "1 lb",
+        price: 14.00,
+        description: "A maple spread in a glass jar",
+        image: "./images/1.jpg"
+    },  
+    {
+        id: 28,
         name: "maple cotton candy",
         category: "other",
         family: "cotton-candy",

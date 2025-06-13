@@ -14,7 +14,7 @@ function Home() {
                 <div className="home-about-us-info">
                     <p>We've been producing maple products in Palmyra, NY for over 30 years.</p>
                     <Link to="/About">
-                        <button>Read Our Story</button>  
+                        <button>Read About Our Operation</button>  
                     </Link>
                 </div>
             </div>

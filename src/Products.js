@@ -67,66 +67,6 @@ const products = [
     },  
     {
         id: 7,
-        name: "maple coated peanuts",
-        category: "other",
-        family: "maple coated peanuts",
-        size: "4.8 oz",
-        price: 5.00,
-        description: "Dry roasted peanuts and pure maple syrup",
-        image: "./images/1.jpg"
-    },
-    {
-        id: 8,
-        name: "maple coated peanuts",
-        category: "other",
-        family: "maple coated peanuts",
-        size: "8 oz",
-        price: 10.00,
-        description: "Dry roasted peanuts and pure maple syrup",
-        image: "./images/1.jpg"
-    },
-    {
-        id: 9,
-        name: "single maple candy",
-        category: "other",
-        family: "maple candy",
-        size: "2 oz",
-        price: 5.00,
-        description: "A single piece of maple candy in the shape of a maple leaf",
-        image: "./images/1.jpg"
-    },
-    {
-        id: 10,
-        name: "maple candy pack",
-        category: "other",
-        family: "maple candy",
-        size: "4.8 oz",
-        price: 10.00,
-        description: "A 4-pack of maple candies shaped like maple leaves",
-        image: "./images/1.jpg"
-    },
-    {
-        id: 11,
-        name: "maple candy pack",
-        category: "other",
-        family: "maple candy",
-        size: "8.8 oz",
-        price: 15.00,
-        description: "An 8-pack of maple candies shaped like maple leaves",
-        image: "./images/1.jpg"
-    },   
-    {
-        id: 12,
-        name: "maple candy pack",
-        category: "other",
-        family: "maple candy",
-        size: "4.8 oz",
-        price: 10.00,
-        description: "A 4-pack of maple candies in an assortment of shapes",
-        image: "./images/1.jpg"
-    },   
-    {
-        id: 13,
         name: "maple syrup glass leaf",
         category: "syrup",
         family: "glass leaf",
@@ -137,7 +77,7 @@ const products = [
         image: "./images/1.jpg"
     },  
     {
-        id: 14,
+        id: 8,
         name: "maple syrup glass leaf",
         category: "syrup",
         family: "glass leaf",
@@ -148,7 +88,7 @@ const products = [
         image: "./images/1.jpg" 
     },  
     {
-        id: 15,
+        id: 9,
         name: "maple syrup glass leaf",
         category: "syrup",
         family: "glass leaf",
@@ -157,7 +97,67 @@ const products = [
         price: 20.00,
         description: "A glass leaf filled with maple syrup",
         image: "./images/1.jpg"
-    },  
+    }, 
+    {
+        id: 10,
+        name: "maple coated peanuts",
+        category: "other",
+        family: "maple coated peanuts",
+        size: "4.8 oz",
+        price: 5.00,
+        description: "Dry roasted peanuts and pure maple syrup",
+        image: "./images/1.jpg"
+    },
+    {
+        id: 11,
+        name: "maple coated peanuts",
+        category: "other",
+        family: "maple coated peanuts",
+        size: "8 oz",
+        price: 10.00,
+        description: "Dry roasted peanuts and pure maple syrup",
+        image: "./images/1.jpg"
+    },
+    {
+        id: 12,
+        name: "single maple candy",
+        category: "other",
+        family: "maple candy",
+        size: "2 oz",
+        price: 5.00,
+        description: "A single piece of maple candy in the shape of a maple leaf",
+        image: "./images/1.jpg"
+    },
+    {
+        id: 13,
+        name: "maple candy pack",
+        category: "other",
+        family: "maple candy",
+        size: "4.8 oz",
+        price: 10.00,
+        description: "A 4-pack of maple candies shaped like maple leaves",
+        image: "./images/1.jpg"
+    },
+    {
+        id: 14,
+        name: "maple candy pack",
+        category: "other",
+        family: "maple candy",
+        size: "8.8 oz",
+        price: 15.00,
+        description: "An 8-pack of maple candies shaped like maple leaves",
+        image: "./images/1.jpg"
+    },   
+    {
+        id: 15,
+        name: "maple candy pack",
+        category: "other",
+        family: "maple candy",
+        size: "4.8 oz",
+        price: 10.00,
+        description: "A 4-pack of maple candies in an assortment of shapes",
+        image: "./images/1.jpg"
+    },    
     {
         id: 16,
         name: "maple cream",

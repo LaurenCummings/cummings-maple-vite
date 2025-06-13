@@ -163,26 +163,6 @@ const products = [
     }, 
     {
         id: 16,
-        name: "maple coated peanuts",
-        category: "other",
-        family: "maple coated peanuts",
-        size: "4.8 oz",
-        price: 5.00,
-        description: "Dry roasted peanuts and pure maple syrup",
-        image: "./images/1.jpg"
-    },
-    {
-        id: 17,
-        name: "maple coated peanuts",
-        category: "other",
-        family: "maple coated peanuts",
-        size: "8 oz",
-        price: 10.00,
-        description: "Dry roasted peanuts and pure maple syrup",
-        image: "./images/1.jpg"
-    },
-    {
-        id: 18,
         name: "single maple candy",
         category: "other",
         family: "maple candy",
@@ -192,7 +172,7 @@ const products = [
         image: "./images/1.jpg"
     },
     {
-        id: 19,
+        id: 17,
         name: "maple candy pack",
         category: "other",
         family: "maple candy",
@@ -202,7 +182,7 @@ const products = [
         image: "./images/1.jpg"
     },
     {
-        id: 20,
+        id: 18,
         name: "maple candy pack",
         category: "other",
         family: "maple candy",
@@ -210,19 +190,29 @@ const products = [
         price: 15.00,
         description: "An 8-pack of maple candies shaped like maple leaves",
         image: "./images/1.jpg"
-    },   
+    }, 
+    {
+        id: 19,
+        name: "maple coated peanuts",
+        category: "other",
+        family: "maple coated peanuts",
+        size: "4.8 oz",
+        price: 5.00,
+        description: "Dry roasted peanuts and pure maple syrup",
+        image: "./images/1.jpg"
+    },
+    {
+        id: 20,
+        name: "maple coated peanuts",
+        category: "other",
+        family: "maple coated peanuts",
+        size: "8 oz",
+        price: 10.00,
+        description: "Dry roasted peanuts and pure maple syrup",
+        image: "./images/1.jpg"
+    },  
     {
         id: 21,
-        name: "maple candy pack",
-        category: "other",
-        family: "maple candy",
-        size: "4.8 oz",
-        price: 10.00,
-        description: "A 4-pack of maple candies in an assortment of shapes",
-        image: "./images/1.jpg"
-    },    
-    {
-        id: 22,
         name: "maple cream",
         category: "other",
         family: "cream",
@@ -232,7 +222,7 @@ const products = [
         image: "./images/1.jpg"
     },  
     {
-        id: 23,
+        id: 22,
         name: "maple cream",
         category: "other",
         family: "cream",
@@ -242,7 +232,7 @@ const products = [
         image: "./images/1.jpg"
     },  
     {
-        id: 24,
+        id: 23,
         name: "maple cotton candy",
         category: "other",
         family: "cotton-candy",

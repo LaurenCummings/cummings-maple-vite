@@ -9,17 +9,18 @@ function AboutUs() {
                 <img src={aboutUs} alt="barn" />
                 <div className="description">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        In odio purus, auctor ut purus sed, lacinia volutpat purus. 
-                        Proin tempus accumsan ante nec venenatis. Vestibulum quis 
-                        commodo est, quis varius quam. Sed faucibus erat diam, vel 
-                        gravida sem aliquet volutpat. Praesent dignissim ultricies 
-                        sem, tristique elementum eros. Nullam id nisi congue, dapibus 
-                        neque id, condimentum risus. Integer pulvinar, lacus sit amet 
-                        ultrices cursus, arcu odio dapibus tellus, quis faucibus urna 
-                        eros ac erat. Curabitur pretium mollis nisi a vehicula. Donec 
-                        lectus nibh, rhoncus at dolor volutpat, lacinia tincidunt 
-                        magna. Sed efficitur bibendum venenatis. Nulla facilisi.                     
+                        Cummings Maple is a family sugaring operation located
+                        in the rolling hills of Palmyra, New York. Trees are 
+                        tapped in early Spring when days start to warm and nights
+                        are below freezing. The sap is collected and boiled daily
+                        during the sap runs, typically taking 45 gallons of sap
+                        to produce 1 gallon of Pure Maple Syrup. In addition to 
+                        Maple Syrup, we make maple molded sugar, maple cream, 
+                        granulated maple sugar, maple coated peanuts, and maple 
+                        cotton candy.
+
+                        We enjoy giving tours of our operation during the Maple 
+                        Season.                   
                     </p>
                 </div>                
             </div>

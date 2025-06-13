@@ -1,61 +1,72 @@
 const products = [
     {
         id: 1,
-        name: "maple syrup jug",
+        name: "gallon maple syrup",
         category: "syrup",
         family: "jug",
-        grades: ["Amber", "Dark"],
-        size: "Half-Pint",
-        price: 10.00,
+        grades: ["Golden", "Amber", "Dark", "Very Dark"],
+        size: "Gallon",
+        price: 50.00,
         description: "A jug of maple syrup",
         image: "./images/1.jpg"
     },   
     {
         id: 2,
-        name: "maple syrup jug",
+        name: "half-gallon maple syrup",
         category: "syrup",
         family: "jug",
-        grades: ["Amber", "Dark", "Very Dark"],
-        size: "Pint",
-        price: 15.00,
+        grades: ["Golden", "Amber", "Dark", "Very Dark"],
+        size: "Half-Gallon",
+        price: 28.00,
         description: "A jug of maple syrup",
         image: "./images/1.jpg"
     },  
     {
         id: 3,
-        name: "maple syrup jug",
+        name: "quart maple syrup",
         category: "syrup",
         family: "jug",
         grades: ["Golden", "Amber", "Dark", "Very Dark"],
         size: "Quart",
-        price: 20.00,
+        price: 18.00,
         description: "A jug of maple syrup",
         image: "./images/1.jpg" 
     },  
     {
         id: 4,
-        name: "maple syrup jug",
+        name: "pint maple syrup",
         category: "syrup",
         family: "jug",
-        grades: ["Amber", "Dark", "Very Dark"],
-        size: "Half-Gallon",
-        price: 30.00,
+        grades: ["Golden", "Amber", "Dark", "Very Dark"],
+        size: "Pint",
+        price: 10.00,
         description: "A jug of maple syrup",
         image: "./images/1.jpg" 
     },  
     {
         id: 5,
-        name: "maple syrup jug",
+        name: "half-pint maple syrup",
         category: "syrup",
         family: "jug",
-        grades: ["Amber", "Dark", "Very Dark"],
-        size: "Gallon",
-        price: 40.00,
+        grades: ["Golden", "Amber", "Dark", "Very Dark"],
+        size: "Half-Pint",
+        price: 6.50,
         description: "A jug of maple syrup",
         image: "./images/1.jpg" 
     },  
     {
         id: 6,
+        name: "3.4 oz maple syrup",
+        category: "syrup",
+        family: "jug",
+        grades: ["Golden", "Amber", "Dark", "Very Dark"],
+        size: "3.4 oz",
+        price: 3.50,
+        description: "A jug of maple syrup",
+        image: "./images/1.jpg" 
+    },  
+    {
+        id: 7,
         name: "maple coated peanuts",
         category: "other",
         family: "maple coated peanuts",
@@ -65,7 +76,7 @@ const products = [
         image: "./images/1.jpg"
     },
     {
-        id: 7,
+        id: 8,
         name: "maple coated peanuts",
         category: "other",
         family: "maple coated peanuts",
@@ -75,7 +86,7 @@ const products = [
         image: "./images/1.jpg"
     },
     {
-        id: 8,
+        id: 9,
         name: "single maple candy",
         category: "other",
         family: "maple candy",
@@ -85,7 +96,7 @@ const products = [
         image: "./images/1.jpg"
     },
     {
-        id: 9,
+        id: 10,
         name: "maple candy pack",
         category: "other",
         family: "maple candy",
@@ -95,7 +106,7 @@ const products = [
         image: "./images/1.jpg"
     },
     {
-        id: 10,
+        id: 11,
         name: "maple candy pack",
         category: "other",
         family: "maple candy",
@@ -105,7 +116,7 @@ const products = [
         image: "./images/1.jpg"
     },   
     {
-        id: 11,
+        id: 12,
         name: "maple candy pack",
         category: "other",
         family: "maple candy",
@@ -115,7 +126,7 @@ const products = [
         image: "./images/1.jpg"
     },   
     {
-        id: 12,
+        id: 13,
         name: "maple syrup glass leaf",
         category: "syrup",
         family: "glass leaf",
@@ -126,7 +137,7 @@ const products = [
         image: "./images/1.jpg"
     },  
     {
-        id: 13,
+        id: 14,
         name: "maple syrup glass leaf",
         category: "syrup",
         family: "glass leaf",
@@ -137,7 +148,7 @@ const products = [
         image: "./images/1.jpg" 
     },  
     {
-        id: 14,
+        id: 15,
         name: "maple syrup glass leaf",
         category: "syrup",
         family: "glass leaf",
@@ -148,7 +159,7 @@ const products = [
         image: "./images/1.jpg"
     },  
     {
-        id: 15,
+        id: 16,
         name: "maple cream",
         category: "other",
         family: "cream",
@@ -158,7 +169,7 @@ const products = [
         image: "./images/1.jpg"
     },  
     {
-        id: 16,
+        id: 17,
         name: "maple cream",
         category: "other",
         family: "cream",
@@ -168,7 +179,7 @@ const products = [
         image: "./images/1.jpg"
     },  
     {
-        id: 17,
+        id: 18,
         name: "maple cotton candy",
         category: "other",
         family: "cotton-candy",

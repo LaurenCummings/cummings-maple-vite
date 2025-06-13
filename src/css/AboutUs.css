@@ -24,7 +24,7 @@
     font-size: 20px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
     .about-us-info {
         flex-direction: column;
     }
@@ -45,12 +45,6 @@
     }
 }
 
-@media (max-width: 550px) {
-    .about-us-info img {
-        width: 400px;
-    }
-}
-
 @media (max-width: 475px) {
     .about-us h1 {
         padding-top: 5px;
@@ -59,10 +53,6 @@
     .about-us-info {
         padding-top: 5px;
         gap: 10px;
-    }
-
-    .about-us-info img {
-        width: 320px;
     }
 
     .about-us-info .description {

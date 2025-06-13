@@ -1,66 +1,6 @@
 const products = [
     {
         id: 1,
-        name: "maple coated peanuts",
-        category: "other",
-        family: "maple coated peanuts",
-        size: "4.8 oz",
-        price: 5.00,
-        description: "Dry roasted peanuts and pure maple syrup",
-        image: "./images/1.jpg"
-    },
-    {
-        id: 2,
-        name: "maple coated peanuts",
-        category: "other",
-        family: "maple coated peanuts",
-        size: "8 oz",
-        price: 10.00,
-        description: "Dry roasted peanuts and pure maple syrup",
-        image: "./images/1.jpg"
-    },
-    {
-        id: 3,
-        name: "single maple candy",
-        category: "other",
-        family: "maple candy",
-        size: "2 oz",
-        price: 5.00,
-        description: "A single piece of maple candy in the shape of a maple leaf",
-        image: "./images/1.jpg"
-    },
-    {
-        id: 4,
-        name: "maple candy pack",
-        category: "other",
-        family: "maple candy",
-        size: "4.8 oz",
-        price: 10.00,
-        description: "A 4-pack of maple candies shaped like maple leaves",
-        image: "./images/1.jpg"
-    },
-    {
-        id: 5,
-        name: "maple candy pack",
-        category: "other",
-        family: "maple candy",
-        size: "8.8 oz",
-        price: 15.00,
-        description: "An 8-pack of maple candies shaped like maple leaves",
-        image: "./images/1.jpg"
-    },   
-    {
-        id: 6,
-        name: "maple candy pack",
-        category: "other",
-        family: "maple candy",
-        size: "4.8 oz",
-        price: 10.00,
-        description: "A 4-pack of maple candies in an assortment of shapes",
-        image: "./images/1.jpg"
-    },   
-    {
-        id: 7,
         name: "maple syrup jug",
         category: "syrup",
         family: "jug",
@@ -71,7 +11,7 @@ const products = [
         image: "./images/1.jpg"
     },   
     {
-        id: 8,
+        id: 2,
         name: "maple syrup jug",
         category: "syrup",
         family: "jug",
@@ -82,7 +22,7 @@ const products = [
         image: "./images/1.jpg"
     },  
     {
-        id: 9,
+        id: 3,
         name: "maple syrup jug",
         category: "syrup",
         family: "jug",
@@ -93,7 +33,7 @@ const products = [
         image: "./images/1.jpg" 
     },  
     {
-        id: 10,
+        id: 4,
         name: "maple syrup jug",
         category: "syrup",
         family: "jug",
@@ -104,7 +44,7 @@ const products = [
         image: "./images/1.jpg" 
     },  
     {
-        id: 11,
+        id: 5,
         name: "maple syrup jug",
         category: "syrup",
         family: "jug",
@@ -114,6 +54,66 @@ const products = [
         description: "A jug of maple syrup",
         image: "./images/1.jpg" 
     },  
+    {
+        id: 6,
+        name: "maple coated peanuts",
+        category: "other",
+        family: "maple coated peanuts",
+        size: "4.8 oz",
+        price: 5.00,
+        description: "Dry roasted peanuts and pure maple syrup",
+        image: "./images/1.jpg"
+    },
+    {
+        id: 7,
+        name: "maple coated peanuts",
+        category: "other",
+        family: "maple coated peanuts",
+        size: "8 oz",
+        price: 10.00,
+        description: "Dry roasted peanuts and pure maple syrup",
+        image: "./images/1.jpg"
+    },
+    {
+        id: 8,
+        name: "single maple candy",
+        category: "other",
+        family: "maple candy",
+        size: "2 oz",
+        price: 5.00,
+        description: "A single piece of maple candy in the shape of a maple leaf",
+        image: "./images/1.jpg"
+    },
+    {
+        id: 9,
+        name: "maple candy pack",
+        category: "other",
+        family: "maple candy",
+        size: "4.8 oz",
+        price: 10.00,
+        description: "A 4-pack of maple candies shaped like maple leaves",
+        image: "./images/1.jpg"
+    },
+    {
+        id: 10,
+        name: "maple candy pack",
+        category: "other",
+        family: "maple candy",
+        size: "8.8 oz",
+        price: 15.00,
+        description: "An 8-pack of maple candies shaped like maple leaves",
+        image: "./images/1.jpg"
+    },   
+    {
+        id: 11,
+        name: "maple candy pack",
+        category: "other",
+        family: "maple candy",
+        size: "4.8 oz",
+        price: 10.00,
+        description: "A 4-pack of maple candies in an assortment of shapes",
+        image: "./images/1.jpg"
+    },   
     {
         id: 12,
         name: "maple syrup glass leaf",

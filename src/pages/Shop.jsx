@@ -27,9 +27,10 @@ function Shop() {
             <select name="filter" onChange={handleChange}>
                 <option value="all">All Products</option>
                 <option value="syrup">Syrup</option>
-                <option value="maple coated peanuts">Peanuts</option>
                 <option value="molded maple sugar">Molded Maple Sugar</option>
+                <option value="maple coated peanuts">Peanuts</option>
                 <option value="cream">Maple Cream</option>
+                <option value="sugar">Granulated Maple Sugar</option>
                 <option value="cotton-candy">Cotton Candy</option>
             </select>
             <div className="products">

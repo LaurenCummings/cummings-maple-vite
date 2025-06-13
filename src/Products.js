@@ -291,6 +291,16 @@ const products = [
         description: "A tub of maple cotton candy",
         image: "./images/1.jpg"
     },  
+    {
+        id: 29,
+        name: "maple cotton candy",
+        category: "other",
+        family: "cotton-candy",
+        size: "10 oz",
+        price: 10.00,
+        description: "A tub of maple cotton candy",
+        image: "./images/1.jpg"
+    },  
 ]
 
 export default products;

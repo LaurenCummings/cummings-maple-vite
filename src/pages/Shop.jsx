@@ -28,7 +28,7 @@ function Shop() {
                 <option value="all">All Products</option>
                 <option value="syrup">Syrup</option>
                 <option value="maple coated peanuts">Peanuts</option>
-                <option value="maple candy">Maple Candy</option>
+                <option value="molded maple sugar">Molded Maple Sugar</option>
                 <option value="cream">Maple Cream</option>
                 <option value="cotton-candy">Cotton Candy</option>
             </select>

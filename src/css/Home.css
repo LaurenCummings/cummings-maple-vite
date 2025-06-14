@@ -133,6 +133,10 @@
         height: 250px;
     }
 
+    .home-products-images {
+        gap: 50px;
+    }
+
     .home-products img {
         height: 250px;
     }

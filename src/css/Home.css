@@ -185,3 +185,25 @@
         max-width: 300px;
     }
 }
+
+@media (max-width: 660px) {
+    .home-about-us {
+        flex-direction: column;
+        gap: 10px;
+        height: 550px;
+    }
+
+    .home-about-us-info {
+        gap: 10px;
+    }
+
+    .home-about-us-info p {
+        font-size: 22px;
+    }
+    
+    .home-about-us-info button {
+        font-size: 22px;
+        width: 150px;
+        height: 100px;
+    }
+}

@@ -155,3 +155,9 @@
         height: 200px;
     }
 }
+
+@media (max-width: 1000px) {
+    .home-contact-us {
+        gap: 100px;
+    }
+}

@@ -102,3 +102,9 @@
         height: 300px;
     }
 }
+
+@media (max-width: 1460px) {
+    .home-about-us img {
+        height: 300px;
+    }
+}

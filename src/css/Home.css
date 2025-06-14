@@ -206,4 +206,19 @@
         width: 150px;
         height: 100px;
     }
+
+    .home-products {
+        flex-direction: column;
+        height: 550px;
+        gap: 10px;
+    }
+
+    .home-products button {
+        width: 150px;
+        height: 100px;
+    }
+
+    .home-products-images {
+        gap: 10px;
+    }
 }

@@ -122,3 +122,9 @@
         gap: 50px;
     }
 }
+
+@media (max-width: 1250px) {
+    .home-products img {
+        height: 250px;
+    }
+}

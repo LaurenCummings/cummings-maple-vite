@@ -102,13 +102,13 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 530px) {
     .logo h1 {
-        max-width: 200px;
+        font-size: 40px;
     }
 
     .logo img {
-        margin-top: 25px;
+        margin-top: 13px;
     }
 }
 

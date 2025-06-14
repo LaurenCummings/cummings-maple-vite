@@ -180,4 +180,8 @@
     .home-contact-us {
         gap: 50px;
     }
+
+    .home-contact-us-info {
+        max-width: 300px;
+    }
 }

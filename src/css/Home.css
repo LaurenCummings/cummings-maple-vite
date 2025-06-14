@@ -175,3 +175,9 @@
         max-width: 300px;
     }
 }
+
+@media (max-width: 760px) {
+    .home-contact-us {
+        gap: 50px;
+    }
+}

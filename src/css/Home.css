@@ -214,11 +214,26 @@
     }
 
     .home-products button {
+        font-size: 22px;
         width: 150px;
         height: 100px;
     }
 
     .home-products-images {
         gap: 10px;
+    }
+
+    .home-contact-us {
+        flex-direction: column;
+        gap: 10px;
+        height: 550px;
+    }
+
+    .home-contact-us img {
+        height: 250px;
+    }
+
+    .home-contact-us-info {
+        font-size: 18px;
     }
 }

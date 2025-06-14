@@ -146,4 +146,12 @@
     .home-about-us-info {
         flex-direction: column;
     }
+
+    .home-products-images {
+        flex-direction: column;
+    }
+
+    .home-products img {
+        height: 200px;
+    }
 }

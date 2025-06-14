@@ -108,3 +108,17 @@
         height: 300px;
     }
 }
+
+@media (max-width: 1350px) {
+    .home-about-us {
+        gap: 100px;
+    }
+
+    .home-about-us-info {
+        gap: 50px;
+    }
+
+    .home-products {
+        gap: 50px;
+    }
+}

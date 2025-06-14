@@ -56,6 +56,11 @@
     justify-content: center;
 }
 
+.home-products-images {
+    display: flex;
+    gap: 100px;
+}
+
 .home-products img {
     height: 400px;
     border-radius: 10px;

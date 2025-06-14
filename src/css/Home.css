@@ -161,3 +161,17 @@
         gap: 100px;
     }
 }
+
+@media (max-width: 840px) {
+    .home-about-us {
+        gap: 50px;
+    }
+
+    .home-about-us img {
+        height: 200px;
+    }
+
+    .home-about-us-info p {
+        max-width: 300px;
+    }
+}

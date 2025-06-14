@@ -134,6 +134,16 @@
     }
 }
 
+@media (max-width: 340px) {
+    .logo img {
+        margin-top: 35px;
+    }
+
+    .logo h1 {
+        max-width: 200px;
+    }
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;

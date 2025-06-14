@@ -96,3 +96,9 @@
     font-size: 22px;
     color: rgb(241, 245, 248);
 }
+
+@media (max-width: 1640px) {
+    .home-products img {
+        height: 300px;
+    }
+}

@@ -17,6 +17,7 @@
 
 .about-us-info img {
     height: 400px;
+    border-radius: 5px;
 }
 
 .about-us-info .description {

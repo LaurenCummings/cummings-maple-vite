@@ -26,12 +26,12 @@ function Shop() {
             <h3>Available for shipment. Please call for pricing.</h3>
             <select name="filter" onChange={handleChange}>
                 <option value="all">All Products</option>
-                <option value="syrup">Syrup</option>
+                <option value="syrup">Maple Syrup</option>
                 <option value="molded maple sugar">Molded Maple Sugar</option>
-                <option value="maple coated peanuts">Peanuts</option>
+                <option value="maple coated peanuts">Maple Coated Peanuts</option>
                 <option value="cream">Maple Cream</option>
                 <option value="sugar">Granulated Maple Sugar</option>
-                <option value="cotton-candy">Cotton Candy</option>
+                <option value="cotton-candy">Maple Cotton Candy</option>
             </select>
             <div className="products">
                 {filteredData.map((item) => {

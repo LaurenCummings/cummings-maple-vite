@@ -226,8 +226,8 @@ const products = [
         name: "small maple cream",
         category: "other",
         family: "cream",
-        size: "3 oz",
-        price: 4.00,
+        size: "4 oz",
+        price: 5.00,
         description: "A maple spread in a glass jar",
         image: "./images/1.jpg"
     },  

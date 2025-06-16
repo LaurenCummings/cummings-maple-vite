@@ -166,7 +166,7 @@ const products = [
         name: "3 piece molded sugar",
         category: "other",
         family: "molded maple sugar",
-        size: "?? oz",
+        size: "1 oz",
         price: 1.50,
         description: "3 pieces of molded maple sugar shaped like maple leaves",
         image: "./images/1.jpg"
@@ -176,7 +176,7 @@ const products = [
         name: "6 piece molded sugar",
         category: "other",
         family: "molded maple sugar",
-        size: "?? oz",
+        size: "2 oz",
         price: 3.00,
         description: "6 pieces of molded maple sugar shaped like maple leaves",
         image: "./images/1.jpg"
@@ -186,7 +186,7 @@ const products = [
         name: "large single piece molded sugar",
         category: "other",
         family: "molded maple sugar",
-        size: "?? oz",
+        size: "0.75 oz",
         price: 1.00,
         description: "A large single piece of molded maple sugar shaped like a maple leaf",
         image: "./images/1.jpg"

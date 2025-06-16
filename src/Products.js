@@ -163,7 +163,7 @@ const products = [
     }, 
     {
         id: 16,
-        name: "3 piece molded sugar",
+        name: "3 piece molded maple sugar",
         category: "other",
         family: "molded maple sugar",
         size: "1 oz",
@@ -173,7 +173,7 @@ const products = [
     },
     {
         id: 17,
-        name: "6 piece molded sugar",
+        name: "6 piece molded maple sugar",
         category: "other",
         family: "molded maple sugar",
         size: "2 oz",
@@ -183,7 +183,7 @@ const products = [
     },
     {
         id: 18,
-        name: "large single piece molded sugar",
+        name: "large single piece molded maple sugar",
         category: "other",
         family: "molded maple sugar",
         size: "0.75 oz",

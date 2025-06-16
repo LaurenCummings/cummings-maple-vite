@@ -126,7 +126,7 @@ const products = [
         category: "syrup",
         family: "plastic bottle",
         grades: ["Golden", "Amber", "Dark", "Very Dark"],
-        size: "13.2 oz",
+        size: "13 oz",
         price: 9.00,
         description: "A plastic squeeze bottle filled with maple syrup",
         image: "./images/1.jpg"

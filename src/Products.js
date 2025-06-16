@@ -117,7 +117,7 @@ const products = [
         grades: ["Amber"],
         size: "1.7 fl oz",
         price: 2.50,
-        description: "A glass bottle filled with maple syrup",
+        description: "A glass bottle filled with pure maple syrup",
         image: "./images/1.jpg"
     }, 
     {

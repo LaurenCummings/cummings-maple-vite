@@ -186,7 +186,7 @@ const products = [
         name: "large single piece molded maple sugar",
         category: "other",
         family: "molded maple sugar",
-        size: "0.75 oz",
+        size: "3/4 oz",
         price: 1.00,
         description: "A large single piece of molded maple sugar",
         image: "./images/1.jpg"

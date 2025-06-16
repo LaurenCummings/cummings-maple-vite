@@ -138,7 +138,7 @@ const products = [
         family: "specialty syrup",
         size: "12.5 fl oz",
         price: 17.00,
-        description: "Syrup that has been aged in a bourbon barrel",
+        description: "Pure maple syrup that has been aged in a bourbon barrel",
         image: "./images/1.jpg"
     }, 
     {
@@ -148,7 +148,7 @@ const products = [
         family: "specialty syrup",
         size: "12 fl oz",
         price: 10.00,
-        description: "A bottle of maple syrup that has been infused with a cinnamon stick. Cinnamon stick remains in final product.",
+        description: "Pure maple syrup that has been infused with a cinnamon stick. Cinnamon stick remains in final product.",
         image: "./images/1.jpg"
     }, 
     {
@@ -158,7 +158,7 @@ const products = [
         family: "specialty syrup",
         size: "12 fl oz",
         price: 11.00,
-        description: "A bottle of maple syrup that has been infused with vanilla beans. Vanilla beans remain in final product.",
+        description: "Pure maple syrup that has been infused with vanilla beans. Vanilla beans remain in final product.",
         image: "./images/1.jpg"
     }, 
     {

@@ -5,7 +5,7 @@ const products = [
         category: "syrup",
         family: "jug",
         grades: ["Golden", "Amber", "Dark", "Very Dark"],
-        size: "Gallon",
+        size: "128 fl oz",
         price: 50.00,
         description: "A jug of maple syrup",
         image: "./images/1.jpg"
@@ -16,7 +16,7 @@ const products = [
         category: "syrup",
         family: "jug",
         grades: ["Golden", "Amber", "Dark", "Very Dark"],
-        size: "Half-Gallon",
+        size: "64 fl oz",
         price: 28.00,
         description: "A jug of maple syrup",
         image: "./images/1.jpg"
@@ -27,7 +27,7 @@ const products = [
         category: "syrup",
         family: "jug",
         grades: ["Golden", "Amber", "Dark", "Very Dark"],
-        size: "Quart",
+        size: "32 fl oz",
         price: 18.00,
         description: "A jug of maple syrup",
         image: "./images/1.jpg" 
@@ -38,7 +38,7 @@ const products = [
         category: "syrup",
         family: "jug",
         grades: ["Golden", "Amber", "Dark", "Very Dark"],
-        size: "Pint",
+        size: "16 fl oz",
         price: 10.00,
         description: "A jug of maple syrup",
         image: "./images/1.jpg" 
@@ -49,7 +49,7 @@ const products = [
         category: "syrup",
         family: "jug",
         grades: ["Golden", "Amber", "Dark", "Very Dark"],
-        size: "Half-Pint",
+        size: "8 fl oz",
         price: 6.50,
         description: "A jug of maple syrup",
         image: "./images/1.jpg" 
@@ -60,7 +60,7 @@ const products = [
         category: "syrup",
         family: "jug",
         grades: ["Golden", "Amber", "Dark", "Very Dark"],
-        size: "3.4 oz",
+        size: "3.4 fl oz",
         price: 3.50,
         description: "A jug of maple syrup",
         image: "./images/1.jpg" 

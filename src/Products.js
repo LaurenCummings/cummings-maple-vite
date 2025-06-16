@@ -73,7 +73,7 @@ const products = [
         grades: ["Amber"],
         size: "1.7 fl oz",
         price: 3.50,
-        description: "A glass leaf filled with maple syrup",
+        description: "A decorative glass maple leaf filled with pure maple syrup",
         image: "./images/1.jpg"
     },  
     {
@@ -84,7 +84,7 @@ const products = [
         grades: ["Amber"],
         size: "3.4 fl oz",
         price: 5.75,
-        description: "A glass leaf filled with maple syrup",
+        description: "A decorative glass maple leaf filled with pure maple syrup",
         image: "./images/1.jpg" 
     },  
     {
@@ -95,7 +95,7 @@ const products = [
         grades: ["Amber"],
         size: "8.5 fl oz",
         price: 10.50,
-        description: "A glass leaf filled with maple syrup",
+        description: "A decorative glass maple leaf filled with pure maple syrup",
         image: "./images/1.jpg"
     }, 
     {

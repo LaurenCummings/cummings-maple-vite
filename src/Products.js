@@ -104,7 +104,7 @@ const products = [
         category: "syrup",
         family: "glass bottle",
         grades: ["Golden", "Amber", "Dark", "Very Dark"],
-        size: "12.5 fl oz",
+        size: "12 fl oz",
         price: 9.00,
         description: "A glass bottle filled with maple syrup",
         image: "./images/1.jpg"

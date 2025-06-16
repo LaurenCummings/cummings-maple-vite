@@ -128,7 +128,7 @@ const products = [
         grades: ["Golden", "Amber", "Dark", "Very Dark"],
         size: "13 fl oz",
         price: 9.00,
-        description: "A plastic squeeze bottle filled with maple syrup",
+        description: "A plastic squeeze bottle filled with pure maple syrup",
         image: "./images/1.jpg"
     }, 
     {

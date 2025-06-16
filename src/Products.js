@@ -156,7 +156,7 @@ const products = [
         name: "vanilla infused syrup",
         category: "syrup",
         family: "specialty syrup",
-        size: "?? oz",
+        size: "12 oz",
         price: 11.00,
         description: "A bottle of maple syrup that has been infused with vanilla beans. Vanilla beans remain in final product.",
         image: "./images/1.jpg"

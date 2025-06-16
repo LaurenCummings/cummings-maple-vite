@@ -114,7 +114,7 @@ const products = [
         name: "mini glass bottle",
         category: "syrup",
         family: "glass bottle",
-        grades: ["Golden", "Amber", "Dark", "Very Dark"],
+        grades: ["Amber"],
         size: "1.7 fl oz",
         price: 2.50,
         description: "A glass bottle filled with maple syrup",

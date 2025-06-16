@@ -71,7 +71,7 @@ const products = [
         category: "syrup",
         family: "glass leaf",
         grades: ["Amber"],
-        size: "1.7 oz",
+        size: "1.7 fl oz",
         price: 3.50,
         description: "A glass leaf filled with maple syrup",
         image: "./images/1.jpg"
@@ -82,7 +82,7 @@ const products = [
         category: "syrup",
         family: "glass leaf",
         grades: ["Amber"],
-        size: "3.4 oz",
+        size: "3.4 fl oz",
         price: 5.75,
         description: "A glass leaf filled with maple syrup",
         image: "./images/1.jpg" 
@@ -93,7 +93,7 @@ const products = [
         category: "syrup",
         family: "glass leaf",
         grades: ["Amber"],
-        size: "8.5 oz",
+        size: "8.5 fl oz",
         price: 10.50,
         description: "A glass leaf filled with maple syrup",
         image: "./images/1.jpg"
@@ -104,7 +104,7 @@ const products = [
         category: "syrup",
         family: "glass bottle",
         grades: ["Golden", "Amber", "Dark", "Very Dark"],
-        size: "12.5 oz",
+        size: "12.5 fl oz",
         price: 9.00,
         description: "A glass bottle filled with maple syrup",
         image: "./images/1.jpg"
@@ -115,7 +115,7 @@ const products = [
         category: "syrup",
         family: "glass bottle",
         grades: ["Golden", "Amber", "Dark", "Very Dark"],
-        size: "1.7 oz",
+        size: "1.7 fl oz",
         price: 2.50,
         description: "A glass bottle filled with maple syrup",
         image: "./images/1.jpg"
@@ -126,7 +126,7 @@ const products = [
         category: "syrup",
         family: "plastic bottle",
         grades: ["Golden", "Amber", "Dark", "Very Dark"],
-        size: "13 oz",
+        size: "13 fl oz",
         price: 9.00,
         description: "A plastic squeeze bottle filled with maple syrup",
         image: "./images/1.jpg"
@@ -136,7 +136,7 @@ const products = [
         name: "bourbon barrel aged syrup",
         category: "syrup",
         family: "specialty syrup",
-        size: "12.5 oz",
+        size: "12.5 fl oz",
         price: 17.00,
         description: "Syrup that has been aged in a bourbon barrel",
         image: "./images/1.jpg"
@@ -146,7 +146,7 @@ const products = [
         name: "cinnamon infused syrup",
         category: "syrup",
         family: "specialty syrup",
-        size: "12 oz",
+        size: "12 fl oz",
         price: 10.00,
         description: "A bottle of maple syrup that has been infused with a cinnamon stick. Cinnamon stick remains in final product.",
         image: "./images/1.jpg"
@@ -156,7 +156,7 @@ const products = [
         name: "vanilla infused syrup",
         category: "syrup",
         family: "specialty syrup",
-        size: "12 oz",
+        size: "12 fl oz",
         price: 11.00,
         description: "A bottle of maple syrup that has been infused with vanilla beans. Vanilla beans remain in final product.",
         image: "./images/1.jpg"

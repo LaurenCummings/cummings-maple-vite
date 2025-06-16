@@ -136,7 +136,7 @@ const products = [
         name: "bourbon barrel aged syrup",
         category: "syrup",
         family: "specialty syrup",
-        size: "?? oz",
+        size: "12.5 oz",
         price: 17.00,
         description: "Syrup that has been aged in a bourbon barrel",
         image: "./images/1.jpg"
@@ -146,7 +146,7 @@ const products = [
         name: "cinnamon infused syrup",
         category: "syrup",
         family: "specialty syrup",
-        size: "?? oz",
+        size: "12 oz",
         price: 10.00,
         description: "A bottle of maple syrup that has been infused with a cinnamon stick. Cinnamon stick remains in final product.",
         image: "./images/1.jpg"

@@ -169,7 +169,7 @@ const products = [
         size: "1 oz",
         price: 1.50,
         description: "3 pieces of molded maple sugar",
-        image: "./images/1.jpg"
+        image: "./images/three_piece_candy.jpg"
     },
     {
         id: 17,
@@ -179,7 +179,7 @@ const products = [
         size: "2 oz",
         price: 3.00,
         description: "6 pieces of molded maple sugar",
-        image: "./images/1.jpg"
+        image: "./images/six_piece_candy.jpg"
     },
     {
         id: 18,
@@ -279,7 +279,7 @@ const products = [
         size: "3 oz",
         price: 4.00,
         description: "Granulated maple sugar mixed with cinnamon in a shaker bottle",
-        image: "./images/1.jpg"
+        image: "./images/cinn_maple_sugar.jpg"
     },  
     {
         id: 28,

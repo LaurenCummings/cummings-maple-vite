@@ -41,7 +41,9 @@ function Shop() {
                                 <img src={item.image} alt={item.name} />
                             </Link>
                             <h2>{item.name}</h2>
-                            <p>{item.size}</p>
+                            { item.size &&
+                                <p>{item.size}</p>
+                            }
                             <p>${item.price.toFixed(2)}</p>
                         </div>
                     )

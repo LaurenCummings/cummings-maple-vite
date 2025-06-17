@@ -129,7 +129,7 @@ const products = [
         size: "13 fl oz",
         price: 9.00,
         description: "A plastic squeeze bottle filled with pure maple syrup",
-        image: "./images/1.jpg"
+        image: "./images/ketchup_bottle.jpg"
     }, 
     {
         id: 13,
@@ -249,7 +249,7 @@ const products = [
         size: "1 lb",
         price: 14.00,
         description: "A pure maple spread in a glass jar",
-        image: "./images/1.jpg"
+        image: "./images/lg_cream.jpg"
     },  
     {
         id: 25,
@@ -288,7 +288,7 @@ const products = [
         family: "cotton-candy",
         price: 4.00,
         description: "A bag of maple cotton candy",
-        image: "./images/1.jpg"
+        image: "./images/cotton_candy_bag.jpg"
     },  
     {
         id: 29,
@@ -298,7 +298,7 @@ const products = [
         size: "2 oz",
         price: 2.00,
         description: "A tub of maple cotton candy",
-        image: "./images/1.jpg"
+        image: "./images/cotton_candy_tub.jpg"
     },  
 ]
 

@@ -15,7 +15,9 @@ function ProductPage() {
                 </div>
                 <div className="product-info">
                     <p>{product.description}</p>
-                    <p>Size: {product.size}</p>
+                    { product.size &&
+                        <p>Size: {product.size}</p>
+                    }
                     <p>Price: ${product.price.toFixed(2)}</p>
                     { product.grades && 
                         <p>Available in </p>

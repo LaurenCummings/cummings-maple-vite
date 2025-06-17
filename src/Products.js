@@ -107,7 +107,7 @@ const products = [
         size: "12 fl oz",
         price: 9.00,
         description: "A glass bottle filled with pure maple syrup",
-        image: "./images/1.jpg"
+        image: "./images/glass_plain.jpg"
     }, 
     {
         id: 11,
@@ -118,7 +118,7 @@ const products = [
         size: "1.7 fl oz",
         price: 2.50,
         description: "A glass bottle filled with pure maple syrup",
-        image: "./images/1.jpg"
+        image: "./images/glass_mini.jpg"
     }, 
     {
         id: 12,

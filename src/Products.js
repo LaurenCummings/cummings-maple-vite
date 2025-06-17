@@ -198,7 +198,7 @@ const products = [
         family: "maple coated peanuts",
         size: "2 oz",
         price: 2.00,
-        description: "Dry roasted peanuts and pure maple syrup",
+        description: "Dry roasted peanuts coated with pure maple syrup",
         image: "./images/1.jpg"
     },
     {
@@ -208,7 +208,7 @@ const products = [
         family: "maple coated peanuts",
         size: "4.8 oz",
         price: 4.00,
-        description: "Dry roasted peanuts and pure maple syrup",
+        description: "Dry roasted peanuts coated with pure maple syrup",
         image: "./images/1.jpg"
     },  
     {
@@ -218,7 +218,7 @@ const products = [
         family: "maple coated peanuts",
         size: "1 lb",
         price: 10.00,
-        description: "Dry roasted peanuts and pure maple syrup",
+        description: "Dry roasted peanuts coated with pure maple syrup",
         image: "./images/1.jpg"
     }, 
     {

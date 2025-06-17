@@ -12,7 +12,7 @@ function Home() {
             <div className="home-about-us">
                 <img className="home-about-us-img" src={bucket} alt="bucket" />
                 <div className="home-about-us-info">
-                    <p>We've been producing maple products in Palmyra, NY for over 30 years.</p>
+                    <p>We've been producing Maple Products in Palmyra, NY for over 30 years.</p>
                     <Link to="/About">
                         <button>Read About Our Operation</button>  
                     </Link>

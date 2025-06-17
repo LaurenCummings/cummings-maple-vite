@@ -199,7 +199,7 @@ const products = [
         size: "2 oz",
         price: 2.00,
         description: "Dry roasted peanuts coated with pure maple syrup",
-        image: "./images/1.jpg"
+        image: "./images/peanuts_sml.jpg"
     },
     {
         id: 20,
@@ -209,7 +209,7 @@ const products = [
         size: "4.8 oz",
         price: 4.00,
         description: "Dry roasted peanuts coated with pure maple syrup",
-        image: "./images/1.jpg"
+        image: "./images/peanuts_lg.jpg"
     },  
     {
         id: 21,
@@ -219,7 +219,7 @@ const products = [
         size: "1 lb",
         price: 10.00,
         description: "Dry roasted peanuts coated with pure maple syrup",
-        image: "./images/1.jpg"
+        image: "./images/peanuts_tub.jpg"
     }, 
     {
         id: 22,

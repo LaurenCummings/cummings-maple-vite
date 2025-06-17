@@ -258,7 +258,7 @@ const products = [
         family: "sugar",
         size: "5 oz",
         price: 6.00,
-        description: "Granulated maple sugar in a shaker bottle",
+        description: "Pure granulated maple sugar in a shaker bottle",
         image: "./images/gran_sugar_small.jpg"
     },  
     {
@@ -268,7 +268,7 @@ const products = [
         family: "sugar",
         size: "9 oz",
         price: 9.00,
-        description: "Granulated maple sugar in a shaker bottle",
+        description: "Pure granulated maple sugar in a shaker bottle",
         image: "./images/gran_sugar_large.jpg"
     },  
     {
@@ -278,7 +278,7 @@ const products = [
         family: "sugar",
         size: "3 oz",
         price: 4.00,
-        description: "Granulated maple sugar mixed with cinnamon in a shaker bottle",
+        description: "Pure granulated maple sugar mixed with cinnamon in a shaker bottle",
         image: "./images/cinn_maple_sugar.jpg"
     },  
     {

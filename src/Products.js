@@ -139,7 +139,7 @@ const products = [
         size: "12.5 fl oz",
         price: 17.00,
         description: "Pure maple syrup that has been aged in a bourbon barrel",
-        image: "./images/1.jpg"
+        image: "./images/specialty_bourbon.jpg"
     }, 
     {
         id: 14,
@@ -149,7 +149,7 @@ const products = [
         size: "12 fl oz",
         price: 10.00,
         description: "Pure maple syrup that has been infused with a cinnamon stick. Cinnamon stick remains in final product.",
-        image: "./images/1.jpg"
+        image: "./images/specialty_cinn.jpg"
     }, 
     {
         id: 15,
@@ -159,7 +159,7 @@ const products = [
         size: "12 fl oz",
         price: 11.00,
         description: "Pure maple syrup that has been infused with vanilla beans. Vanilla beans remain in final product.",
-        image: "./images/1.jpg"
+        image: "./images/specialty_van.jpg"
     }, 
     {
         id: 16,

@@ -74,7 +74,7 @@ const products = [
         size: "1.7 fl oz",
         price: 3.50,
         description: "A decorative glass maple leaf filled with pure maple syrup",
-        image: "./images/1.jpg"
+        image: "./images/leaf_sml.jpg"
     },  
     {
         id: 8,
@@ -85,7 +85,7 @@ const products = [
         size: "3.4 fl oz",
         price: 5.75,
         description: "A decorative glass maple leaf filled with pure maple syrup",
-        image: "./images/1.jpg" 
+        image: "./images/leaf_med.jpg" 
     },  
     {
         id: 9,
@@ -96,7 +96,7 @@ const products = [
         size: "8.5 fl oz",
         price: 10.50,
         description: "A decorative glass maple leaf filled with pure maple syrup",
-        image: "./images/1.jpg"
+        image: "./images/leaf_lg.jpg"
     }, 
     {
         id: 10,

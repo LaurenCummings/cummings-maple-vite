@@ -169,7 +169,7 @@ const products = [
         size: "1 oz",
         price: 1.50,
         description: "3 pieces of molded maple sugar",
-        image: "./images/three_piece_candy.jpg"
+        image: "./images/candy_three_piece.jpg"
     },
     {
         id: 17,
@@ -179,7 +179,7 @@ const products = [
         size: "2 oz",
         price: 3.00,
         description: "6 pieces of molded maple sugar",
-        image: "./images/six_piece_candy.jpg"
+        image: "./images/candy_six_piece.jpg"
     },
     {
         id: 18,
@@ -189,7 +189,7 @@ const products = [
         size: "3/4 oz",
         price: 1.00,
         description: "A large single piece of molded maple sugar",
-        image: "./images/single_candy.jpg"
+        image: "./images/candy_single.jpg"
     }, 
     {
         id: 19,
@@ -249,7 +249,7 @@ const products = [
         size: "1 lb",
         price: 14.00,
         description: "A pure maple spread in a glass jar",
-        image: "./images/lg_cream.jpg"
+        image: "./images/cream_lg.jpg"
     },  
     {
         id: 25,
@@ -259,7 +259,7 @@ const products = [
         size: "5 oz",
         price: 6.00,
         description: "Pure granulated maple sugar in a shaker bottle",
-        image: "./images/gran_sugar_small.jpg"
+        image: "./images/sugar_sml.jpg"
     },  
     {
         id: 26,
@@ -269,7 +269,7 @@ const products = [
         size: "9 oz",
         price: 9.00,
         description: "Pure granulated maple sugar in a shaker bottle",
-        image: "./images/gran_sugar_large.jpg"
+        image: "./images/sugar_lg.jpg"
     },  
     {
         id: 27,
@@ -279,7 +279,7 @@ const products = [
         size: "3 oz",
         price: 4.00,
         description: "Pure granulated maple sugar mixed with cinnamon in a shaker bottle",
-        image: "./images/cinn_maple_sugar.jpg"
+        image: "./images/sugar_cinn.jpg"
     },  
     {
         id: 28,

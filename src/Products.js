@@ -189,7 +189,7 @@ const products = [
         size: "3/4 oz",
         price: 1.00,
         description: "A large single piece of molded maple sugar",
-        image: "./images/1.jpg"
+        image: "./images/single_candy.jpg"
     }, 
     {
         id: 19,
@@ -259,7 +259,7 @@ const products = [
         size: "5 oz",
         price: 6.00,
         description: "Granulated maple sugar in a shaker bottle",
-        image: "./images/1.jpg"
+        image: "./images/gran_sugar_small.jpg"
     },  
     {
         id: 26,
@@ -269,7 +269,7 @@ const products = [
         size: "9 oz",
         price: 9.00,
         description: "Granulated maple sugar in a shaker bottle",
-        image: "./images/1.jpg"
+        image: "./images/gran_sugar_large.jpg"
     },  
     {
         id: 27,

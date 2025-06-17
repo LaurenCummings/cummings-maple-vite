@@ -228,7 +228,7 @@ const products = [
         family: "cream",
         size: "4 oz",
         price: 5.00,
-        description: "A maple spread in a glass jar",
+        description: "A pure maple spread in a glass jar",
         image: "./images/1.jpg"
     },  
     {
@@ -238,7 +238,7 @@ const products = [
         family: "cream",
         size: "1/2 lb",
         price: 8.00,
-        description: "A maple spread in a glass jar",
+        description: "A pure maple spread in a glass jar",
         image: "./images/1.jpg"
     },  
     {
@@ -248,7 +248,7 @@ const products = [
         family: "cream",
         size: "1 lb",
         price: 14.00,
-        description: "A maple spread in a glass jar",
+        description: "A pure maple spread in a glass jar",
         image: "./images/1.jpg"
     },  
     {

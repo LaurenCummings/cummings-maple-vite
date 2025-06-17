@@ -286,7 +286,6 @@ const products = [
         name: "maple cotton candy bag",
         category: "other",
         family: "cotton-candy",
-        size: "?? oz",
         price: 4.00,
         description: "A bag of maple cotton candy",
         image: "./images/1.jpg"

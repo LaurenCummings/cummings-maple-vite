@@ -8,7 +8,7 @@ const products = [
         size: "128 fl oz",
         price: 50.00,
         description: "A jug of maple syrup",
-        image: "./images/1.jpg"
+        image: "./images/jug_gal.jpg"
     },   
     {
         id: 2,
@@ -19,7 +19,7 @@ const products = [
         size: "64 fl oz",
         price: 28.00,
         description: "A jug of maple syrup",
-        image: "./images/1.jpg"
+        image: "./images/jug_half_gal.jpg"
     },  
     {
         id: 3,
@@ -30,7 +30,7 @@ const products = [
         size: "32 fl oz",
         price: 18.00,
         description: "A jug of maple syrup",
-        image: "./images/1.jpg" 
+        image: "./images/jug_quart.jpg" 
     },  
     {
         id: 4,
@@ -41,7 +41,7 @@ const products = [
         size: "16 fl oz",
         price: 10.00,
         description: "A jug of maple syrup",
-        image: "./images/1.jpg" 
+        image: "./images/jug_pint.jpg" 
     },  
     {
         id: 5,
@@ -52,7 +52,7 @@ const products = [
         size: "8 fl oz",
         price: 6.50,
         description: "A jug of maple syrup",
-        image: "./images/1.jpg" 
+        image: "./images/jug_half_pint.jpg" 
     },  
     {
         id: 6,
@@ -63,7 +63,7 @@ const products = [
         size: "3.4 fl oz",
         price: 3.50,
         description: "A jug of maple syrup",
-        image: "./images/1.jpg" 
+        image: "./images/jug_baby.jpg" 
     },  
     {
         id: 7,

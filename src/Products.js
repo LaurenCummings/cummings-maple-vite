@@ -213,7 +213,7 @@ const products = [
     },  
     {
         id: 21,
-        name: "tub maple coated peanuts",
+        name: "tub of maple coated peanuts",
         category: "other",
         family: "maple coated peanuts",
         size: "1 lb",

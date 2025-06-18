@@ -14,7 +14,11 @@ function ProductPage() {
                     <img src={product.image} alt={product.name} />   
                 </div>
                 <div className="product-info">
-                    <p>{product.description}</p>
+                    { product.description && product.description.map((description_line) => {
+                        return (
+                            <p>{description_line}</p>
+                        )
+                    })}
                     { product.size &&
                         <p>Size: {product.size}</p>
                     }

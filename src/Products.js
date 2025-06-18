@@ -287,7 +287,7 @@ const products = [
         category: "other",
         family: "cotton-candy",
         price: 4.00,
-        description: ["A bag of maple cotton candy"],
+        description: ["A bag of maple cotton candy", "Shipping not available"],
         image: "./images/cotton_candy_bag.jpg"
     },  
     {

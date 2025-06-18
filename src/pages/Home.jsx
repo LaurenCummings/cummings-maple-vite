@@ -2,7 +2,7 @@ import '../css/Home.css';
 import trees from '../assets/trees.jpg';
 import bucket from '../assets/bucket.jpg';
 import jugFamily from '../assets/jugFamily.jpg';
-import bottleFamily from '../assets/bottleFamily.jpg';
+import bottleFamily from '../assets/bottleFamily2.jpg';
 import aboutUs from '../assets/aboutUs.jpg';
 import { Link } from 'react-router-dom';
 

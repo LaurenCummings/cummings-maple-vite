@@ -1,3 +1,5 @@
+import '../css/RecipePage.css';
+
 function RecipePage() {
     return (
         <div>

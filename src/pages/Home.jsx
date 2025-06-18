@@ -1,7 +1,8 @@
 import '../css/Home.css';
 import trees from '../assets/trees.jpg';
 import bucket from '../assets/bucket.jpg';
-import bottles from '../assets/bottles.jpg';
+import jugFamily from '../assets/jugFamily.jpg';
+import bottleFamily from '../assets/bottleFamily.jpg';
 import aboutUs from '../assets/aboutUs.jpg';
 import { Link } from 'react-router-dom';
 
@@ -20,8 +21,8 @@ function Home() {
             </div>
             <div className="home-products">
                 <div className="home-products-images">
-                    <img src={bottles} alt="bottles" />
-                    <img src={bottles} alt="bottles" />                    
+                    <img src={jugFamily} alt="bottles" />
+                    <img src={bottleFamily} alt="bottles" />                    
                 </div>
                 <Link to="/Products">
                     <button>View Our Products</button>

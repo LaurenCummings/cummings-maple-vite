@@ -7,7 +7,7 @@ const products = [
         grades: ["Golden", "Amber", "Dark", "Very Dark"],
         size: "128 fl oz",
         price: 50.00,
-        description: "A jug of maple syrup",
+        description: ["A jug of maple syrup"],
         image: "./images/jug_gal.jpg"
     },   
     {
@@ -18,7 +18,7 @@ const products = [
         grades: ["Golden", "Amber", "Dark", "Very Dark"],
         size: "64 fl oz",
         price: 28.00,
-        description: "A jug of maple syrup",
+        description: ["A jug of maple syrup"],
         image: "./images/jug_half_gal.jpg"
     },  
     {
@@ -29,7 +29,7 @@ const products = [
         grades: ["Golden", "Amber", "Dark", "Very Dark"],
         size: "32 fl oz",
         price: 18.00,
-        description: "A jug of maple syrup",
+        description: ["A jug of maple syrup"],
         image: "./images/jug_quart.jpg" 
     },  
     {

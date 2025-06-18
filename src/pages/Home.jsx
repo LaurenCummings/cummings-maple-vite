@@ -1,6 +1,7 @@
 import '../css/Home.css';
 import trees from '../assets/trees.jpg';
 import bucket from '../assets/bucket.jpg';
+import leafFamily from '../assets/leafFamily.jpg';
 import jugFamily from '../assets/jugFamily.jpg';
 import bottleFamily from '../assets/bottleFamily2.jpg';
 import aboutUs from '../assets/aboutUs.jpg';
@@ -21,8 +22,9 @@ function Home() {
             </div>
             <div className="home-products">
                 <div className="home-products-images">
-                    <img src={jugFamily} alt="bottles" />
-                    <img src={bottleFamily} alt="bottles" />                    
+                    <img src={leafFamily} alt="glass leaves filled with maple syrup" />
+                    <img src={jugFamily} alt="containers of maple syrup" />
+                    <img src={bottleFamily} alt="bottles of maple syrup" />                    
                 </div>
                 <Link to="/Products">
                     <button>View Our Products</button>

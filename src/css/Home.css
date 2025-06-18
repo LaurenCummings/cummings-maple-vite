@@ -58,7 +58,7 @@
 
 .home-products-images {
     display: flex;
-    gap: 100px;
+    gap: 50px;
 }
 
 .home-products img {
@@ -102,17 +102,25 @@
     color: rgb(241, 245, 248);
 }
 
-@media (max-width: 1460px) {
-    .home-about-us img {
-        height: 300px;
-    }
-
+@media (max-width: 1660px) {
     .home-products {
-        gap: 50px;
+        gap: 20px;
     }
 
     .home-products-images {
-        gap: 50px;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .home-products img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 1460px) {
+    .home-about-us img {
+        height: 300px;
     }
 }
 
@@ -126,15 +134,24 @@
     }
 }
 
-@media (max-width: 1300px) {
-    .home-products img {
-        height: 300px;
-    }
-}
-
 @media (max-width: 1250px) {
     .home-about-us img {
         height: 250px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .home-products {
+        gap: 50px;
+    }
+
+    .home-products img {
+        height: 225px;
+    }
+
+    .home-products-images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -142,21 +159,9 @@
     .home-about-us-info {
         flex-direction: column;
     }
-
-    .home-products {
-        gap: 20px;
-    }
-
-    .home-products-images {
-        gap: 20px;
-    }
 }
 
 @media (max-width: 1000px) {
-    .home-products img {
-        height: 225px;
-    }
-
     .home-contact-us {
         gap: 100px;
     }
@@ -173,13 +178,6 @@
 
     .home-about-us-info p {
         max-width: 300px;
-    }
-}
-
-@media (max-width: 810px) {
-    .home-products-images {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -215,8 +213,14 @@
     }
 
     .home-products {
-        flex-direction: column;
-        height: 550px;
+        gap: 10px;
+    }
+
+    .home-products img {
+        height: 200px;
+    }
+
+    .home-products-images {
         gap: 10px;
     }
 
@@ -224,10 +228,6 @@
         font-size: 22px;
         width: 150px;
         height: 100px;
-    }
-
-    .home-products-images {
-        gap: 10px;
     }
 
     .home-contact-us {
@@ -242,5 +242,12 @@
 
     .home-contact-us-info {
         font-size: 18px;
+    }
+}
+
+@media (max-width: 550px) {
+    .home-products {
+        height: 550px;
+        flex-direction: column;
     }
 }

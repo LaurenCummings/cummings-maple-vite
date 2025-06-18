@@ -40,7 +40,7 @@ const products = [
         grades: ["Golden", "Amber", "Dark", "Very Dark"],
         size: "16 fl oz",
         price: 10.00,
-        description: "A jug of maple syrup",
+        description: ["A jug of maple syrup"],
         image: "./images/jug_pint.jpg" 
     },  
     {
@@ -51,7 +51,7 @@ const products = [
         grades: ["Golden", "Amber", "Dark", "Very Dark"],
         size: "8 fl oz",
         price: 6.50,
-        description: "A jug of maple syrup",
+        description: ["A jug of maple syrup"],
         image: "./images/jug_half_pint.jpg" 
     },  
     {
@@ -62,7 +62,7 @@ const products = [
         grades: ["Golden", "Amber", "Dark", "Very Dark"],
         size: "3.4 fl oz",
         price: 3.50,
-        description: "A jug of maple syrup",
+        description: ["A jug of maple syrup"],
         image: "./images/jug_baby.jpg" 
     },  
     {
@@ -73,7 +73,7 @@ const products = [
         grades: ["Amber"],
         size: "1.7 fl oz",
         price: 3.50,
-        description: "A decorative glass maple leaf filled with pure maple syrup",
+        description: ["A decorative glass maple leaf filled with pure maple syrup"],
         image: "./images/leaf_sml.jpg"
     },  
     {
@@ -84,7 +84,7 @@ const products = [
         grades: ["Amber"],
         size: "3.4 fl oz",
         price: 5.75,
-        description: "A decorative glass maple leaf filled with pure maple syrup",
+        description: ["A decorative glass maple leaf filled with pure maple syrup"],
         image: "./images/leaf_med.jpg" 
     },  
     {
@@ -95,7 +95,7 @@ const products = [
         grades: ["Amber"],
         size: "8.5 fl oz",
         price: 10.50,
-        description: "A decorative glass maple leaf filled with pure maple syrup",
+        description: ["A decorative glass maple leaf filled with pure maple syrup"],
         image: "./images/leaf_lg.jpg"
     }, 
     {
@@ -106,7 +106,7 @@ const products = [
         grades: ["Golden", "Amber", "Dark", "Very Dark"],
         size: "12 fl oz",
         price: 9.00,
-        description: "A glass bottle filled with pure maple syrup",
+        description: ["A glass bottle filled with pure maple syrup"],
         image: "./images/glass_plain.jpg"
     }, 
     {
@@ -117,7 +117,7 @@ const products = [
         grades: ["Amber"],
         size: "1.7 fl oz",
         price: 2.50,
-        description: "A glass bottle filled with pure maple syrup",
+        description: ["A glass bottle filled with pure maple syrup"],
         image: "./images/glass_mini.jpg"
     }, 
     {
@@ -128,7 +128,7 @@ const products = [
         grades: ["Golden", "Amber", "Dark", "Very Dark"],
         size: "13 fl oz",
         price: 9.00,
-        description: "A plastic squeeze bottle filled with pure maple syrup",
+        description: ["A plastic squeeze bottle filled with pure maple syrup"],
         image: "./images/ketchup_bottle.jpg"
     }, 
     {
@@ -138,7 +138,7 @@ const products = [
         family: "specialty syrup",
         size: "12.5 fl oz",
         price: 17.00,
-        description: "Pure maple syrup that has been aged in a bourbon barrel",
+        description: ["Pure maple syrup that has been aged in a bourbon barrel"],
         image: "./images/specialty_bourbon.jpg"
     }, 
     {
@@ -148,7 +148,7 @@ const products = [
         family: "specialty syrup",
         size: "12 fl oz",
         price: 10.00,
-        description: "Pure maple syrup that has been infused with a cinnamon stick. Cinnamon stick remains in final product.",
+        description: ["Pure maple syrup that has been infused with a cinnamon stick. Cinnamon stick remains in final product."],
         image: "./images/specialty_cinn.jpg"
     }, 
     {
@@ -158,7 +158,7 @@ const products = [
         family: "specialty syrup",
         size: "12 fl oz",
         price: 11.00,
-        description: "Pure maple syrup that has been infused with vanilla beans. Vanilla beans remain in final product.",
+        description: ["Pure maple syrup that has been infused with vanilla beans. Vanilla beans remain in final product."],
         image: "./images/specialty_van.jpg"
     }, 
     {
@@ -168,7 +168,7 @@ const products = [
         family: "molded maple sugar",
         size: "1 oz",
         price: 1.50,
-        description: "3 pieces of molded maple sugar",
+        description: ["3 pieces of molded maple sugar"],
         image: "./images/candy_three_piece.jpg"
     },
     {
@@ -178,7 +178,7 @@ const products = [
         family: "molded maple sugar",
         size: "2 oz",
         price: 3.00,
-        description: "6 pieces of molded maple sugar",
+        description: ["6 pieces of molded maple sugar"],
         image: "./images/candy_six_piece.jpg"
     },
     {
@@ -188,7 +188,7 @@ const products = [
         family: "molded maple sugar",
         size: "3/4 oz",
         price: 1.00,
-        description: "A large single piece of molded maple sugar",
+        description: ["A large single piece of molded maple sugar"],
         image: "./images/candy_single.jpg"
     }, 
     {
@@ -198,7 +198,7 @@ const products = [
         family: "maple coated peanuts",
         size: "2 oz",
         price: 2.00,
-        description: "Dry roasted peanuts coated with pure maple syrup",
+        description: ["Dry roasted peanuts coated with pure maple syrup"],
         image: "./images/peanuts_sml.jpg"
     },
     {
@@ -208,7 +208,7 @@ const products = [
         family: "maple coated peanuts",
         size: "4.8 oz",
         price: 4.00,
-        description: "Dry roasted peanuts coated with pure maple syrup",
+        description: ["Dry roasted peanuts coated with pure maple syrup"],
         image: "./images/peanuts_lg.jpg"
     },  
     {
@@ -218,7 +218,7 @@ const products = [
         family: "maple coated peanuts",
         size: "1 lb",
         price: 10.00,
-        description: "Dry roasted peanuts coated with pure maple syrup",
+        description: ["Dry roasted peanuts coated with pure maple syrup"],
         image: "./images/peanuts_tub.jpg"
     }, 
     {
@@ -228,7 +228,7 @@ const products = [
         family: "cream",
         size: "4 oz",
         price: 5.00,
-        description: "A pure maple spread in a glass jar",
+        description: ["A pure maple spread in a glass jar"],
         image: "./images/1.jpg"
     },  
     {
@@ -238,7 +238,7 @@ const products = [
         family: "cream",
         size: "1/2 lb",
         price: 8.00,
-        description: "A pure maple spread in a glass jar",
+        description: ["A pure maple spread in a glass jar"],
         image: "./images/1.jpg"
     },  
     {
@@ -248,7 +248,7 @@ const products = [
         family: "cream",
         size: "1 lb",
         price: 14.00,
-        description: "A pure maple spread in a glass jar",
+        description: ["A pure maple spread in a glass jar"],
         image: "./images/cream_lg.jpg"
     },  
     {
@@ -258,7 +258,7 @@ const products = [
         family: "sugar",
         size: "5 oz",
         price: 6.00,
-        description: "Pure granulated maple sugar in a shaker bottle",
+        description: ["Pure granulated maple sugar in a shaker bottle"],
         image: "./images/sugar_sml.jpg"
     },  
     {
@@ -268,7 +268,7 @@ const products = [
         family: "sugar",
         size: "9 oz",
         price: 9.00,
-        description: "Pure granulated maple sugar in a shaker bottle",
+        description: ["Pure granulated maple sugar in a shaker bottle"],
         image: "./images/sugar_lg.jpg"
     },  
     {
@@ -278,7 +278,7 @@ const products = [
         family: "sugar",
         size: "3 oz",
         price: 4.00,
-        description: "Pure granulated maple sugar mixed with cinnamon in a shaker bottle",
+        description: ["Pure granulated maple sugar mixed with cinnamon in a shaker bottle"],
         image: "./images/sugar_cinn.jpg"
     },  
     {
@@ -287,7 +287,7 @@ const products = [
         category: "other",
         family: "cotton-candy",
         price: 4.00,
-        description: "A bag of maple cotton candy",
+        description: ["A bag of maple cotton candy"],
         image: "./images/cotton_candy_bag.jpg"
     },  
     {
@@ -297,7 +297,7 @@ const products = [
         family: "cotton-candy",
         size: "2 oz",
         price: 2.00,
-        description: "A tub of maple cotton candy",
+        description: ["A tub of maple cotton candy"],
         image: "./images/cotton_candy_tub.jpg"
     },  
 ]

@@ -4,6 +4,7 @@ import bucket from '../assets/bucket.jpg';
 import leafFamily from '../assets/leafFamily.jpg';
 import jugFamily from '../assets/jugFamily.jpg';
 import bottleFamily from '../assets/bottleFamily2.jpg';
+import peanutFamily from '../assets/peanutFamily.jpg';
 import aboutUs from '../assets/aboutUs.jpg';
 import { Link } from 'react-router-dom';
 
@@ -24,7 +25,8 @@ function Home() {
                 <div className="home-products-images">
                     <img src={leafFamily} alt="glass leaves filled with maple syrup" />
                     <img src={jugFamily} alt="containers of maple syrup" />
-                    <img src={bottleFamily} alt="bottles of maple syrup" />                    
+                    <img src={bottleFamily} alt="bottles of maple syrup" />   
+                    <img src={peanutFamily} alt="peanut products" className="peanut-products" />                 
                 </div>
                 <Link to="/Products">
                     <button>View Our Products</button>

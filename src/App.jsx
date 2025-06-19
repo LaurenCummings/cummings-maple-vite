@@ -8,6 +8,7 @@ import ProductPage from './pages/ProductPage';
 import RecipePage from './pages/RecipePage';
 import ContactPage from './pages/ContactPage';
 import Footer from './components/Footer';
+import Grades from './components/Grades';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/:product" element={<ProductPage />} />
           <Route path="/Recipes" element={<RecipePage />} />
           <Route path="/ContactUs" element={<ContactPage />} />
+          <Route path="/Grades" element={<Grades />} />
         </Routes>
         <Footer />
       </BrowserRouter>

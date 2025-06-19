@@ -3,6 +3,7 @@ import { useLocation, Link } from 'react-router-dom';
 import GradeLabel from '../components/GradeLabel';
 import { FaInfoCircle } from 'react-icons/fa';
 import ReactDOM from 'react-dom';
+import Grades from '../components/Grades';
 
 function ProductPage() {
     const location = useLocation();
@@ -10,7 +11,8 @@ function ProductPage() {
 
     function createWindow() {
         const newWindow = window.open('about:blank', 'myNewWindow', 'width=800,height=600');
-        newWindow.document.write(`
+        var newDoc = newWindow.document;
+        var htmlContent = `
           <!DOCTYPE html>
           <html>
             <head>
@@ -20,9 +22,14 @@ function ProductPage() {
                 <div id="root-new-window"></div>
             </body>
           </html>
-        `);
+        `;
+
+        newDoc.open();
+        newDoc.write(htmlContent);
+        newDoc.close();
 
         const rootContainer = newWindow.document.getElementById('root-new-window');
+        ReactDOM.render(<Grades />, rootContainer);
     }
 
     return (

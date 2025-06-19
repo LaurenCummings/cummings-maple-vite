@@ -6,3 +6,9 @@
     max-width: 350px;
     margin: 0px auto;
 }
+
+@media (max-width: 400px) {
+    .contact-page {
+        max-width: 300px;
+    }
+}

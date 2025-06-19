@@ -1,7 +1,7 @@
-function GradesPage() {
+function Grades() {
     return (
         <div>Grades</div>
     )
 }
 
-export default GradesPage;
+export default Grades;

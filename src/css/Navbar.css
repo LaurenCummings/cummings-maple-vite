@@ -68,7 +68,7 @@
     opacity: 0.6;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1250px) {
     .links {
         display: none;
     }

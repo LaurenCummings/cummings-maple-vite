@@ -1,7 +1,6 @@
 import '../css/ProductPage.css';
 import { useLocation, Link } from 'react-router-dom';
 import GradeLabel from '../components/GradeLabel';
-import GradesPage from '../pages/GradesPage';
 
 function ProductPage() {
     const location = useLocation();

@@ -1,6 +1,7 @@
 import '../css/ProductPage.css';
 import { useLocation, Link } from 'react-router-dom';
 import GradeLabel from '../components/GradeLabel';
+import { FaInfoCircle } from 'react-icons/fa';
 
 function ProductPage() {
     const location = useLocation();
@@ -27,7 +28,7 @@ function ProductPage() {
                         <div>
                             <p>Available in </p>
                             <Link to="/Grades" target="_blank">
-                                Open Grades
+                                <FaInfoCircle />
                             </Link>
                         </div>
                     }

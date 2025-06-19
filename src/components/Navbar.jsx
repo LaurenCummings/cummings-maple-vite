@@ -29,6 +29,7 @@ function Navbar() {
             <div className={`${isOpen ? "links menu-open" : "links"}`}>
                 <Link to="/Products" onClick={closeMenu}>Products</Link>
                 <Link to="/About" onClick={closeMenu}>About Us</Link>
+                <Link to="/ContactUs" onClick={closeMenu}>Contact Us</Link>
             </div>
             <button className="hamburger-menu" onClick={toggleMenu}>
                 {

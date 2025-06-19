@@ -37,7 +37,7 @@ function Shop() {
                 {filteredData.map((item) => {
                     return (
                         <div key={item.id} className="product">
-                            <Link to="/ProductPage" state={ item }>
+                            <Link to={`/${item.name}`} state={ item }>
                                 <img src={item.image} alt={item.name} />
                             </Link>
                             <h2>{item.name}</h2>

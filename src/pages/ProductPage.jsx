@@ -2,8 +2,6 @@ import '../css/ProductPage.css';
 import { useLocation, Link } from 'react-router-dom';
 import GradeLabel from '../components/GradeLabel';
 import { FaInfoCircle } from 'react-icons/fa';
-import ReactDOM from 'react-dom';
-import Grades from '../components/Grades';
 
 function ProductPage() {
     const location = useLocation();
@@ -29,10 +27,6 @@ function ProductPage() {
         newDoc.open();
         newDoc.write(htmlContent);
         newDoc.close();
-
-        const rootContainer = newWindow.document.getElementById("root-new-window");
-        console.log(rootContainer);
-        return ReactDOM.createPortal(<Grades />, rootContainer);
     }
 
 

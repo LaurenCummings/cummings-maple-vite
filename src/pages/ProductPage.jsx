@@ -7,6 +7,10 @@ function ProductPage() {
     const location = useLocation();
     const product = location.state;
 
+    function createWindow() {
+        const newWindow = window.open('about:blank', 'myNewWindow', 'width=800,height=600');
+    }
+
     return (
         <div className="product-page">
             <h1>{product.name}</h1>
@@ -35,9 +39,7 @@ function ProductPage() {
                         })}
                     </div>                
                     { product.grades && 
-                        <Link to="/Grades" target="_blank" title="Information on Maple Grades">
-                            <FaInfoCircle className="info-button" />
-                        </Link>
+                        <FaInfoCircle className="info-button" title="Information on Maple Grades" onClick={createWindow} />
                     }
                 </div>                
             </div>

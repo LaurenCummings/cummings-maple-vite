@@ -35,7 +35,7 @@ function ProductPage() {
                         })}
                     </div>                
                     { product.grades && 
-                        <Link to="/Grades" target="_blank">
+                        <Link to="/Grades" target="_blank" title="Information on Maple Grades">
                             <FaInfoCircle className="info-button" />
                         </Link>
                     }

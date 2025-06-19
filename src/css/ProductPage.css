@@ -26,6 +26,10 @@
     max-width: 300px;
 }
 
+.info-button {
+    font-size: 30px;
+}
+
 .product-grades {
     display: flex;
     justify-content: center;

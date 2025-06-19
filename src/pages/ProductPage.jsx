@@ -26,10 +26,11 @@ function ProductPage() {
                     <p>Price: ${product.price.toFixed(2)}</p>
                     { product.grades && 
                         <div>
-                            <p>Available in </p>
-                            <Link to="/Grades" target="_blank">
-                                <FaInfoCircle />
-                            </Link>
+                            <p>Available in 
+                                <Link to="/Grades" target="_blank">
+                                    <FaInfoCircle className="info-button" />
+                                </Link>
+                            </p>
                         </div>
                     }
                     <div className="product-grades">

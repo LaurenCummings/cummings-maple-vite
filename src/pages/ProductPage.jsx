@@ -2,6 +2,7 @@ import '../css/ProductPage.css';
 import { useLocation, Link } from 'react-router-dom';
 import GradeLabel from '../components/GradeLabel';
 import { FaInfoCircle } from 'react-icons/fa';
+import ReactDOM from 'react-dom';
 
 function ProductPage() {
     const location = useLocation();
@@ -9,6 +10,19 @@ function ProductPage() {
 
     function createWindow() {
         const newWindow = window.open('about:blank', 'myNewWindow', 'width=800,height=600');
+        newWindow.document.write(`
+          <!DOCTYPE html>
+          <html>
+            <head>
+                <title>Information on Maple Grades</title>
+            </head>
+            <body>
+                <div id="root-new-window"></div>
+            </body>
+          </html>
+        `);
+
+        const rootContainer = newWindow.document.getElementById('root-new-window');
     }
 
     return (
@@ -39,7 +53,11 @@ function ProductPage() {
                         })}
                     </div>                
                     { product.grades && 
-                        <FaInfoCircle className="info-button" title="Information on Maple Grades" onClick={createWindow} />
+                        <FaInfoCircle 
+                            className="info-button" 
+                            title="Information on Maple Grades" 
+                            onClick={createWindow} 
+                        />
                     }
                 </div>                
             </div>

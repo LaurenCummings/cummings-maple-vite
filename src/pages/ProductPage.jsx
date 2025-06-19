@@ -25,13 +25,7 @@ function ProductPage() {
                     }
                     <p>Price: ${product.price.toFixed(2)}</p>
                     { product.grades && 
-                        <div>
-                            <p>Available in 
-                                <Link to="/Grades" target="_blank">
-                                    <FaInfoCircle className="info-button" />
-                                </Link>
-                            </p>
-                        </div>
+                        <p>Available in</p>
                     }
                     <div className="product-grades">
                         { product.grades && product.grades.map((grade, index) => {
@@ -40,6 +34,11 @@ function ProductPage() {
                             )    
                         })}
                     </div>                
+                    { product.grades && 
+                        <Link to="/Grades" target="_blank">
+                            <FaInfoCircle className="info-button" />
+                        </Link>
+                    }
                 </div>                
             </div>
         </div>

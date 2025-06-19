@@ -19,7 +19,9 @@ function ProductPage() {
                 <title>Information on Maple Grades</title>
             </head>
             <body>
-                <div id="root-new-window"></div>
+                <div id="root-new-window">
+                    <h1>Maple Syrup Grades</h1>
+                </div>
             </body>
           </html>
         `;
@@ -28,9 +30,11 @@ function ProductPage() {
         newDoc.write(htmlContent);
         newDoc.close();
 
-        const rootContainer = newWindow.document.getElementById('root-new-window');
-        ReactDOM.render(<Grades />, rootContainer);
+        const rootContainer = newWindow.document.getElementById("root-new-window");
+        console.log(rootContainer);
+        return ReactDOM.createPortal(<Grades />, rootContainer);
     }
+
 
     return (
         <div className="product-page">

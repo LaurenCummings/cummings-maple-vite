@@ -7,7 +7,6 @@ import Shop from './pages/Shop';
 import ProductPage from './pages/ProductPage';
 import RecipePage from './pages/RecipePage';
 import ContactPage from './pages/ContactPage';
-import GradesPage from './pages/GradesPage';
 import Footer from './components/Footer';
 
 function App() {
@@ -23,7 +22,6 @@ function App() {
           <Route path="/:product" element={<ProductPage />} />
           <Route path="/Recipes" element={<RecipePage />} />
           <Route path="/ContactUs" element={<ContactPage />} />
-          <Route path="/Grades" element={<GradesPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -19,7 +19,9 @@ function Navbar() {
     return (
         <div className="navbar">
             <div className="logo">
-                <img src={logo} alt="logo" />
+                <Link to="/">
+                    <img src={logo} alt="logo" />
+                </Link>
                 <Link to="/">
                     <h1>Cummings Maple</h1>
                 </Link>

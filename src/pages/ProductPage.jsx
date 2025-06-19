@@ -1,6 +1,7 @@
 import '../css/ProductPage.css';
-import { useLocation } from 'react-router-dom';
+import { useLocation, Link } from 'react-router-dom';
 import GradeLabel from '../components/GradeLabel';
+import GradesPage from '../pages/GradesPage';
 
 function ProductPage() {
     const location = useLocation();
@@ -24,7 +25,12 @@ function ProductPage() {
                     }
                     <p>Price: ${product.price.toFixed(2)}</p>
                     { product.grades && 
-                        <p>Available in </p>
+                        <div>
+                            <p>Available in </p>
+                            <Link to="/Grades" target="_blank">
+                                Open Grades
+                            </Link>
+                        </div>
                     }
                     <div className="product-grades">
                         { product.grades && product.grades.map((grade, index) => {

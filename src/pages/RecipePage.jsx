@@ -13,7 +13,7 @@ function RecipePage() {
                             <h2>{recipe.name}</h2>
                             {
                                 recipe.ingredients.map((ingredient, index) => {
-                                    return (<li>{ingredient}</li>)
+                                    return (<li key={index}>{ingredient}</li>)
                                 })
                             }
                             <p>{recipe.instructions}</p>                            

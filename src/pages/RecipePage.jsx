@@ -4,7 +4,7 @@ function RecipePage() {
     return (
         <div className="recipe-page">
             <h1>Recipes</h1>
-            <p>Here are some of our favorite maple recipes</p>
+            <h3>Here are some of our favorite maple recipes</h3>
         </div>
     )
 }

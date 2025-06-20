@@ -9,9 +9,13 @@ function RecipePage() {
             {
                 recipes.map((recipe) => {
                     return (
-                        <div>
+                        <div key={recipe.id}>
                             <h2>{recipe.name}</h2>
-                            <p>{recipe.ingredients}</p>
+                            {
+                                recipe.ingredients.map((ingredient, index) => {
+                                    return (<li>{ingredient}</li>)
+                                })
+                            }
                             <p>{recipe.instructions}</p>                            
                         </div>
                     )

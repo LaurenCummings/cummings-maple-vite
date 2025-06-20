@@ -15,9 +15,26 @@ function ProductPage() {
           <html>
             <head>
                 <title>Information on Maple Grades</title>
+                <style>
+                    body {
+                        background-color: rgb(241, 245, 248);
+                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+                        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    }
+                    .maple-grades {
+                        text-align: center;
+                    }
+                    p {
+                        font-size: 20px;
+                        margin: 20px;
+                    }
+                    img {
+                        height: 200px;
+                    }
+                </style>
             </head>
             <body>
-                <div id="root-new-window">
+                <div class="maple-grades">
                     <h1>Maple Syrup Grades</h1>
                     <p>Maple syrup starts its life as maple sap, which is collected from maple trees. 
                     From there it is boiled down until it reaches a concentration of roughly 67% sugar. Sap 

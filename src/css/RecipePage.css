@@ -10,3 +10,8 @@
 .recipe li {
     list-style-type: none;
 }
+
+.recipe p {
+    max-width: 600px;
+    margin: 20px auto;
+}

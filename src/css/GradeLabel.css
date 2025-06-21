@@ -18,7 +18,7 @@
     color: rgb(77, 48, 22);
 }
 
-.grade-label p {
+.grade-label span {
     color: white;
     font-size: 16px;
     position: absolute;
@@ -26,22 +26,22 @@
 }
 
 .label-Golden {
-    top: 20px;
+    top: 35px;
     left: 21px;
 }
 
 .label-Amber {
-    top: 20px;
+    top: 35px;
     left: 21px;
 }
 
 .label-Dark {
-    top: 20px;
+    top: 35px;
     left: 29px;
 }
 
 .label-VeryDark {
-    top: 19px;
+    top: 35px;
     left: 26px;
     width: 40px;
     line-height: 15px;

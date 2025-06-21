@@ -50,6 +50,6 @@
 
     .product-info p {
         margin: 0px auto;
-        
+        line-height: 40px;
     }
 }

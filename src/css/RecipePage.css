@@ -7,8 +7,12 @@
     padding-top: 40px;
 }
 
+.recipe-page h3 {
+    margin: 0px 20px;
+}
+
 .recipe {
-    margin-top: 50px;
+    margin: 50px 20px;
 }
 
 .recipe h3 {

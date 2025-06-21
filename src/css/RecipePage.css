@@ -9,9 +9,11 @@
 
 .recipe li {
     list-style-type: none;
+    font-size: 18px;
 }
 
 .recipe p {
     max-width: 600px;
     margin: 20px auto;
+    font-size: 18px;
 }

@@ -48,6 +48,10 @@
         flex-direction: column;
     }
 
+    .product-info {
+        margin-top: 20px;
+    }
+
     .product-info p {
         margin: 0px auto;
         line-height: 40px;

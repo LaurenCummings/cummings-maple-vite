@@ -11,6 +11,7 @@ function RecipePage() {
                     return (
                         <div key={recipe.id}>
                             <h2>{recipe.name}</h2>
+                            <h3>Ingredients</h3>
                             {
                                 recipe.ingredients.map((ingredient, index) => {
                                     return (<li key={index}>{ingredient}</li>)

@@ -3,7 +3,7 @@ import trees from '../assets/trees.jpg';
 import bucket from '../assets/bucket.jpg';
 import leafFamily from '../assets/leafFamily.jpg';
 import jugFamily from '../assets/jugFamily.jpg';
-import bottleFamily from '../assets/bottleFamily2.jpg';
+import bottleFamily from '../assets/bottleFamily.jpg';
 import peanutFamily from '../assets/peanutFamily.jpg';
 import aboutUs from '../assets/aboutUs.jpg';
 import { Link } from 'react-router-dom';

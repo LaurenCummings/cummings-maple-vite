@@ -9,7 +9,7 @@ function RecipePage() {
             {
                 recipes.map((recipe) => {
                     return (
-                        <div key={recipe.id}>
+                        <div key={recipe.id} className="recipe">
                             <h2>{recipe.name}</h2>
                             <h3>Ingredients</h3>
                             {

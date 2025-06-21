@@ -6,3 +6,7 @@
 .recipe-page h1 {
     padding-top: 40px;
 }
+
+.recipe li {
+    list-style-type: none;
+}

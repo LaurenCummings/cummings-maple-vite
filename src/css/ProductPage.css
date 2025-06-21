@@ -48,7 +48,8 @@
         flex-direction: column;
     }
 
-    .product-info {
+    .product-info p {
         margin: 0px auto;
+        
     }
 }

@@ -1,6 +1,5 @@
 import '../css/Home.css';
 import trees from '../assets/trees.jpg';
-import bucket from '../assets/bucket.jpg';
 import sugarhouse from '../assets/sugarhouse.jpg';
 import leafFamily from '../assets/leafFamily.jpg';
 import jugFamily from '../assets/jugFamily.jpg';

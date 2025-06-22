@@ -239,6 +239,12 @@
     }
 }
 
+@media (max-width: 600px) {
+    .home-products img {
+        height: 200px;
+    }
+}
+
 @media (max-width: 550px) {
     .banner {
         height: 200px;
@@ -246,6 +252,19 @@
 
     .home-products {
         height: 550px;
-        flex-direction: column;
+    }
+
+    .home-products button {
+        top: 1250px;
+        left: calc(100vw * 0.5);
+    }
+
+    .home-products img {
+        height: 165px;
+    }
+
+    .home-products-images {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
     }
 }

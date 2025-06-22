@@ -26,9 +26,9 @@ function Home() {
                 <div className="home-products-images">
                     <img src={leafFamily} alt="glass leaves filled with maple syrup" />
                     <img src={creamFamily} alt="maple cream products" /> 
-                    <img src={jugFamily} alt="containers of maple syrup" />
+                    <img src={peanutFamily} alt="maple coated peanut products" />
                     <img src={bottleFamily} alt="bottles of maple syrup" />   
-                    <img src={peanutFamily} alt="maple coated peanut products" />     
+                    <img src={jugFamily} alt="containers of maple syrup" />     
                 </div>
                 <Link to="/Products">
                     <button>View Our Products</button>

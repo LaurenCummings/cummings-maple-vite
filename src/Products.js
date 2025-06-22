@@ -229,7 +229,7 @@ const products = [
         size: "4 oz",
         price: 5.00,
         description: ["A pure maple spread in a glass jar", "Refrigerated product", "Shipping not available"],
-        image: "./images/1.jpg"
+        image: "./images/cream_sml.jpg"
     },  
     {
         id: 23,
@@ -239,7 +239,7 @@ const products = [
         size: "1/2 lb",
         price: 8.00,
         description: ["A pure maple spread in a glass jar", "Refrigerated product", "Shipping not available"],
-        image: "./images/1.jpg"
+        image: "./images/cream_med.jpg"
     },  
     {
         id: 24,

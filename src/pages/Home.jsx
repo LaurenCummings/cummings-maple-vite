@@ -1,6 +1,7 @@
 import '../css/Home.css';
 import trees from '../assets/trees.jpg';
 import bucket from '../assets/bucket.jpg';
+import sugarhouse from '../assets/sugarhouse.jpg';
 import leafFamily from '../assets/leafFamily.jpg';
 import jugFamily from '../assets/jugFamily.jpg';
 import bottleFamily from '../assets/bottleFamily.jpg';
@@ -14,7 +15,7 @@ function Home() {
         <div className="home">
             <img className="banner" src={trees} alt="trees" />
             <div className="home-about-us">
-                <img className="home-about-us-img" src={bucket} alt="bucket" />
+                <img className="home-about-us-img" src={sugarhouse} alt="sugarhouse" />
                 <div className="home-about-us-info">
                     <p>We've been producing Maple Products in Palmyra, NY for over 30 years.</p>
                     <Link to="/About">

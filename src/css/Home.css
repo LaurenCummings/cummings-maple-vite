@@ -175,12 +175,16 @@
         max-width: 300px;
     }
 
+    .home-products {
+        gap: 0px;
+    }
+
     .home-products button {
         font-size: 22px;
         width: 150px;
         height: 100px;
         position: absolute;
-        left: calc(100vw * 0.65);
+        left: calc(100vw * 0.68);
         top: 1300px;
     }
 }
@@ -219,18 +223,6 @@
     .home-products button {
         top: 1350px;
     }
-
-    /* .home-products {
-        gap: 10px;
-    }
-
-    .home-products img {
-        height: 200px;
-    }
-
-    .home-products-images {
-        gap: 10px;
-    } */
 
     .home-contact-us {
         flex-direction: column;

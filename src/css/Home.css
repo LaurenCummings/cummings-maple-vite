@@ -152,6 +152,7 @@
     .home-products-images {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
     }
 }
 
@@ -172,6 +173,15 @@
 
     .home-about-us-info p {
         max-width: 300px;
+    }
+
+    .home-products button {
+        font-size: 22px;
+        width: 150px;
+        height: 100px;
+        position: absolute;
+        left: calc(100vw * 0.65);
+        top: 1300px;
     }
 }
 
@@ -206,7 +216,11 @@
         height: 100px;
     }
 
-    .home-products {
+    .home-products button {
+        top: 1350px;
+    }
+
+    /* .home-products {
         gap: 10px;
     }
 
@@ -216,13 +230,7 @@
 
     .home-products-images {
         gap: 10px;
-    }
-
-    .home-products button {
-        font-size: 22px;
-        width: 150px;
-        height: 100px;
-    }
+    } */
 
     .home-contact-us {
         flex-direction: column;

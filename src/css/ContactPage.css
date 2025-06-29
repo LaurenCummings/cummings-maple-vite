@@ -10,6 +10,10 @@
     font-size: 20px;
 }
 
+.contact-page .address {
+    line-height: 10px;
+}
+
 @media (max-width: 400px) {
     .contact-page {
         max-width: 300px;

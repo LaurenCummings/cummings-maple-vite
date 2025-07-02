@@ -37,7 +37,7 @@ function ProductPage() {
                 <div class="maple-grades">
                     <h1>Maple Syrup Grades</h1>
                     <p>Maple syrup starts its life as maple sap, which is collected from maple trees. 
-                    From there it is boiled down until it reaches a concentration of roughly 67% sugar. Sap 
+                    From there it is boiled down until it reaches a concentration of roughly 66% sugar. Sap 
                     that is collected later in the season requires more boiling time to reach the desired
                     concentration, which makes the finished syrup darker in color. The New York State Maple
                     Producers Association defines grades based on the color of the finished syrup, which is

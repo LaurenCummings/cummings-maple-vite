@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div>
-      <BrowserRouter basename={'cummings-maple-vite'}>
+      <BrowserRouter>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />

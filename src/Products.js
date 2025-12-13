@@ -193,6 +193,16 @@ const products = [
     }, 
     {
         id: 19,
+        name: "pure maple molded sugar box",
+        category: "other",
+        family: "molded maple sugar",
+        size: "4 oz",
+        price: 10.00,
+        description: ["12 pieces of molded maple sugar"],
+        image: "./images/candy_twelve_piece.jpg"
+    }, 
+    {
+        id: 20,
         name: "small bag maple coated peanuts",
         category: "other",
         family: "maple coated peanuts",
@@ -202,7 +212,7 @@ const products = [
         image: "./images/peanuts_sml.jpg"
     },
     {
-        id: 20,
+        id: 21,
         name: "large bag maple coated peanuts",
         category: "other",
         family: "maple coated peanuts",
@@ -212,7 +222,7 @@ const products = [
         image: "./images/peanuts_lg.jpg"
     },  
     {
-        id: 21,
+        id: 22,
         name: "tub of maple coated peanuts",
         category: "other",
         family: "maple coated peanuts",
@@ -222,7 +232,7 @@ const products = [
         image: "./images/peanuts_tub.jpg"
     }, 
     {
-        id: 22,
+        id: 23,
         name: "small maple cream",
         category: "other",
         family: "cream",
@@ -232,7 +242,7 @@ const products = [
         image: "./images/cream_sml.jpg"
     },  
     {
-        id: 23,
+        id: 24,
         name: "medium maple cream",
         category: "other",
         family: "cream",
@@ -242,7 +252,7 @@ const products = [
         image: "./images/cream_med.jpg"
     },  
     {
-        id: 24,
+        id: 25,
         name: "large maple cream",
         category: "other",
         family: "cream",
@@ -252,7 +262,7 @@ const products = [
         image: "./images/cream_lg.jpg"
     },  
     {
-        id: 25,
+        id: 26,
         name: "small granulated maple sugar",
         category: "other",
         family: "sugar",
@@ -262,7 +272,7 @@ const products = [
         image: "./images/sugar_sml.jpg"
     },  
     {
-        id: 26,
+        id: 27,
         name: "large granulated maple sugar",
         category: "other",
         family: "sugar",
@@ -272,7 +282,7 @@ const products = [
         image: "./images/sugar_lg.jpg"
     },  
     {
-        id: 27,
+        id: 28,
         name: "cinnamon maple granulated sugar",
         category: "other",
         family: "sugar",
@@ -282,7 +292,7 @@ const products = [
         image: "./images/sugar_cinn.jpg"
     },  
     {
-        id: 28,
+        id: 29,
         name: "maple cotton candy bag",
         category: "other",
         family: "cotton-candy",
@@ -291,7 +301,7 @@ const products = [
         image: "./images/cotton_candy_bag.jpg"
     },  
     {
-        id: 29,
+        id: 39,
         name: "maple cotton candy tub",
         category: "other",
         family: "cotton-candy",
